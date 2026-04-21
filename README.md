@@ -1,9 +1,9 @@
 # Culture_flow_Sim: A system for simulating cultural dynamics.
 
 Culture_flow_Sim conducts simulations involving multiple cultural key opinion leaders and ordinary users on social media, thereby simulating the process of cultural dissemination within social networks.
-![参数设置](images/image 262.png)
-![推演过程](images/image 263.png)
-![网络图](images/image 264.png)
+![参数设置](images/image262.png)
+![推演过程](images/image263.png)
+![网络图](images/image264.png)
 ## Getting Started
 ### Installation
 ```bash
