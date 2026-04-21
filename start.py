@@ -25,12 +25,12 @@ FILE_TEST = "E:/Mxy/HiSim/output/temp/test.json"
 OUT_HTML = "simulation_dashboard_culture_v4_dynamic.html"
 # ================= AI 模型配置 (已切换为 GPT-3.5) =================
 # 请在此处填入您的 OpenAI API Key (或者您的智增增等 GPT 代理 Key)
-openai.api_key = "sk-zk2d3e3efd833b8863a0b9178b4e54007fe690803ba2eb44"
+openai.api_key = ""
 
 # 如果您使用的是官方直连，请注释掉下面这行；
 # 如果您使用的是代理（比如智增增），请保留或修改为对应的代理地址
 # 注意：旧版 openai 库用 openai.api_base，新版用 openai.base_url
-openai.api_base = "https://api.zhizengzeng.com/v1"
+openai.api_base = ""
 # =============================================================
 # ================= 数据读取与智能清洗 =================
 def load_json(path):
