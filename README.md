@@ -1,6 +1,6 @@
 # Culture_flow_Sim: A system for simulating cultural dynamics
 
-Culture_flow_Sim is a multi-agent-based system for simulating cultural trend evolution. 
+**Culture_flow_Sim** is a **multi-agent-based** system for simulating cultural trend evolution. 
 It can simulate scenarios involving multiple well-known cultural figures and ordinary users on social media, thereby simulating the process of cultural dissemination on social networks.
 
 | 参数设置 | 推演过程 |
@@ -49,6 +49,6 @@ Use the following command to open the deduction system
 ```shell
 python start.py
 ```
-After running the above command, access localhost:5000 to enter the system.
+After running the above command, access **localhost:5000** to enter the system.
 
 
