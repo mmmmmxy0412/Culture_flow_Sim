@@ -1,0 +1,4810 @@
+{
+  "0": {
+    "user_64": {
+      "att": 0.35945,
+      "influencers": [
+        "user_89"
+      ]
+    },
+    "user_156": {
+      "att": 0.38543,
+      "influencers": [
+        "user_92"
+      ]
+    },
+    "user_123": {
+      "att": 0.8593999999999999,
+      "influencers": [
+        "user_161"
+      ]
+    },
+    "user_131": {
+      "att": -0.31284999999999996,
+      "influencers": [
+        "user_119"
+      ]
+    },
+    "user_79": {
+      "att": 0.57134,
+      "influencers": [
+        "user_77"
+      ]
+    },
+    "user_85": {
+      "att": -0.00147,
+      "influencers": [
+        "SwingDingeling"
+      ]
+    },
+    "Movie-Kino": {
+      "att": 0.0,
+      "influencers": [
+        "newsweek"
+      ]
+    },
+    "user_105": {
+      "att": 0.02069,
+      "influencers": [
+        "user_142"
+      ]
+    },
+    "user_101": {
+      "att": -0.95023,
+      "influencers": [
+        "user_158"
+      ]
+    },
+    "user_134": {
+      "att": -0.12236999999999999,
+      "influencers": [
+        "user_182"
+      ]
+    },
+    "Mary_Ellen_Katz": {
+      "att": 0.0,
+      "influencers": [
+        "qunow"
+      ]
+    },
+    "user_121": {
+      "att": 0.5441400000000001,
+      "influencers": [
+        "user_96"
+      ]
+    },
+    "user_76": {
+      "att": -0.95067,
+      "influencers": [
+        "user_117"
+      ]
+    },
+    "user_178": {
+      "att": -0.28162000000000004,
+      "influencers": [
+        "user_51"
+      ]
+    },
+    "Dry-Interaction-1246": {
+      "att": 0.0,
+      "influencers": [
+        "ImperiumRome"
+      ]
+    },
+    "user_89": {
+      "att": 0.391009,
+      "influencers": [
+        "user_156"
+      ]
+    },
+    "user_100": {
+      "att": 0.12408999999999999,
+      "influencers": [
+        "user_150"
+      ]
+    },
+    "user_162": {
+      "att": 0.016239999999999997,
+      "influencers": [
+        "Hob-999"
+      ]
+    },
+    "user_198": {
+      "att": 0.16147,
+      "influencers": [
+        "user_164"
+      ]
+    },
+    "user_119": {
+      "att": -0.31554499999999996,
+      "influencers": [
+        "user_131"
+      ]
+    },
+    "user_133": {
+      "att": 0.5061,
+      "influencers": [
+        "user_60"
+      ]
+    },
+    "user_128": {
+      "att": 0.74795,
+      "influencers": [
+        "user_62"
+      ]
+    },
+    "user_118": {
+      "att": -0.64351,
+      "influencers": [
+        "user_190"
+      ]
+    },
+    "Novel_Sun3870": {
+      "att": 0.013980000000000001,
+      "influencers": [
+        "user_99"
+      ]
+    },
+    "user_58": {
+      "att": -0.0161,
+      "influencers": [
+        "Acrzyguy"
+      ]
+    },
+    "user_116": {
+      "att": 0.24932,
+      "influencers": [
+        "user_130"
+      ]
+    },
+    "user_62": {
+      "att": 0.739375,
+      "influencers": [
+        "user_128"
+      ]
+    },
+    "ubcstaffer123": {
+      "att": 0.0,
+      "influencers": [
+        "ControlCAD"
+      ]
+    },
+    "user_83": {
+      "att": -0.58151,
+      "influencers": [
+        "user_185"
+      ]
+    },
+    "user_50": {
+      "att": 0.042300000000000004,
+      "influencers": [
+        "user_112"
+      ]
+    },
+    "YaleE360": {
+      "att": 0.05796,
+      "influencers": [
+        "SE_to_NW"
+      ]
+    },
+    "VaguelyFamiliarVoice": {
+      "att": 0.0,
+      "influencers": [
+        "wiredmagazine"
+      ]
+    },
+    "user_71": {
+      "att": 0.02114,
+      "influencers": [
+        "GreenStrength5876"
+      ]
+    },
+    "user_132": {
+      "att": 0.06534999999999999,
+      "influencers": [
+        "LelandTurbo0620"
+      ]
+    },
+    "user_125": {
+      "att": 0.1016,
+      "influencers": [
+        "user_82"
+      ]
+    },
+    "user_137": {
+      "att": 0.146,
+      "influencers": [
+        "user_164"
+      ]
+    },
+    "user_180": {
+      "att": 0.2653,
+      "influencers": [
+        "user_57"
+      ]
+    },
+    "user_161": {
+      "att": 0.88347,
+      "influencers": [
+        "user_56"
+      ]
+    },
+    "user_150": {
+      "att": 0.12947999999999998,
+      "influencers": [
+        "user_151"
+      ]
+    },
+    "user_189": {
+      "att": 0.46629000000000004,
+      "influencers": [
+        "user_110"
+      ]
+    },
+    "user_90": {
+      "att": 0.408089,
+      "influencers": [
+        "user_156"
+      ]
+    },
+    "user_140": {
+      "att": -0.64112,
+      "influencers": [
+        "user_175"
+      ]
+    },
+    "user_63": {
+      "att": 0.5664399999999999,
+      "influencers": [
+        "user_77"
+      ]
+    },
+    "user_170": {
+      "att": -0.76076,
+      "influencers": [
+        "user_114"
+      ]
+    },
+    "user_192": {
+      "att": -0.041440000000000005,
+      "influencers": [
+        "SE_to_NW"
+      ]
+    },
+    "user_188": {
+      "att": 0.17312,
+      "influencers": [
+        "user_111"
+      ]
+    },
+    "Lighthouse_seek": {
+      "att": -0.006883000000000002,
+      "influencers": [
+        "user_105"
+      ]
+    },
+    "financialtimes": {
+      "att": -0.05788,
+      "influencers": [
+        "user_171"
+      ]
+    },
+    "CheLeung": {
+      "att": 0.0378,
+      "influencers": [
+        "user_58"
+      ]
+    },
+    "user_149": {
+      "att": 0.72198,
+      "influencers": [
+        "user_183"
+      ]
+    },
+    "Vermontbuilder": {
+      "att": -0.00255,
+      "influencers": [
+        "user_142"
+      ]
+    },
+    "TheExpressUS": {
+      "att": -0.01083,
+      "influencers": [
+        "user_184"
+      ]
+    },
+    "user_197": {
+      "att": -0.05944,
+      "influencers": [
+        "user_163"
+      ]
+    },
+    "user_136": {
+      "att": 0.134606,
+      "influencers": [
+        "user_188"
+      ]
+    },
+    "user_115": {
+      "att": 0.47794000000000003,
+      "influencers": [
+        "user_148"
+      ]
+    },
+    "user_82": {
+      "att": 0.11164,
+      "influencers": [
+        "user_181"
+      ]
+    },
+    "user_102": {
+      "att": 0.609042,
+      "influencers": [
+        "user_63"
+      ]
+    },
+    "Xenon1898": {
+      "att": -0.01379,
+      "influencers": [
+        "Economy-Specialist38"
+      ]
+    },
+    "user_93": {
+      "att": 0.15424000000000002,
+      "influencers": [
+        "user_125"
+      ]
+    },
+    "user_77": {
+      "att": 0.55533,
+      "influencers": [
+        "user_66"
+      ]
+    },
+    "user_78": {
+      "att": 0.41481,
+      "influencers": [
+        "user_95"
+      ]
+    },
+    "user_144": {
+      "att": 0.87983,
+      "influencers": [
+        "user_177"
+      ]
+    },
+    "user_171": {
+      "att": -0.06776,
+      "influencers": [
+        "Hob-999"
+      ]
+    },
+    "user_159": {
+      "att": -0.31152,
+      "influencers": [
+        "PlusCardiologist1799"
+      ]
+    },
+    "user_154": {
+      "att": 0.151966,
+      "influencers": [
+        "user_188"
+      ]
+    },
+    "user_172": {
+      "att": -0.19258,
+      "influencers": [
+        "user_51"
+      ]
+    },
+    "user_167": {
+      "att": -0.28295,
+      "influencers": [
+        "user_68"
+      ]
+    },
+    "user_177": {
+      "att": 0.88606,
+      "influencers": [
+        "user_56"
+      ]
+    },
+    "user_182": {
+      "att": -0.19183,
+      "influencers": [
+        "user_124"
+      ]
+    },
+    "user_145": {
+      "att": 0.98007,
+      "influencers": [
+        "user_107"
+      ]
+    },
+    "user_109": {
+      "att": -0.69285,
+      "influencers": [
+        "user_88"
+      ]
+    },
+    "user_185": {
+      "att": -0.6076,
+      "influencers": [
+        "user_190"
+      ]
+    },
+    "techreview": {
+      "att": 0.0,
+      "influencers": [
+        "whoamisri"
+      ]
+    },
+    "Economy-Specialist38": {
+      "att": 0.0,
+      "influencers": [
+        "VaguelyFamiliarVoice"
+      ]
+    },
+    "user_111": {
+      "att": 0.24927,
+      "influencers": [
+        "user_57"
+      ]
+    },
+    "user_99": {
+      "att": 0.03262,
+      "influencers": [
+        "ControlCAD"
+      ]
+    },
+    "kowalsky9999": {
+      "att": -0.01533,
+      "influencers": [
+        "Acrzyguy"
+      ]
+    },
+    "user_135": {
+      "att": 0.064265,
+      "influencers": [
+        "Vermontbuilder"
+      ]
+    },
+    "user_74": {
+      "att": -0.040413000000000004,
+      "influencers": [
+        "user_105"
+      ]
+    },
+    "user_143": {
+      "att": 0.59758,
+      "influencers": [
+        "user_67"
+      ]
+    },
+    "user_104": {
+      "att": -0.017570000000000002,
+      "influencers": [
+        "Codizier"
+      ]
+    },
+    "kazkh": {
+      "att": -0.017832,
+      "influencers": [
+        "user_197"
+      ]
+    },
+    "user_53": {
+      "att": -0.598093,
+      "influencers": [
+        "user_83"
+      ]
+    },
+    "user_168": {
+      "att": 0.31254,
+      "influencers": [
+        "user_95"
+      ]
+    },
+    "user_129": {
+      "att": 0.30565200000000003,
+      "influencers": [
+        "user_168"
+      ]
+    },
+    "user_174": {
+      "att": -0.46694,
+      "influencers": [
+        "user_196"
+      ]
+    },
+    "user_106": {
+      "att": 0.176746,
+      "influencers": [
+        "user_188"
+      ]
+    },
+    "ControlCAD": {
+      "att": 0.01761,
+      "influencers": [
+        "user_191"
+      ]
+    },
+    "user_190": {
+      "att": -0.60711,
+      "influencers": [
+        "user_185"
+      ]
+    },
+    "user_160": {
+      "att": -0.95417,
+      "influencers": [
+        "user_193"
+      ]
+    },
+    "user_73": {
+      "att": 0.281642,
+      "influencers": [
+        "user_168"
+      ]
+    },
+    "user_52": {
+      "att": 0.7948325,
+      "influencers": [
+        "user_62"
+      ]
+    },
+    "qunow": {
+      "att": 0.02004,
+      "influencers": [
+        "user_112"
+      ]
+    },
+    "user_139": {
+      "att": -0.356565,
+      "influencers": [
+        "user_131"
+      ]
+    },
+    "Acrzyguy": {
+      "att": 0.01179,
+      "influencers": [
+        "Ashes0fTheWake"
+      ]
+    },
+    "user_84": {
+      "att": -0.88993,
+      "influencers": [
+        "user_199"
+      ]
+    },
+    "user_191": {
+      "att": 0.029150000000000002,
+      "influencers": [
+        "user_54"
+      ]
+    },
+    "Cybertronian1512": {
+      "att": 0.024839999999999997,
+      "influencers": [
+        "user_181"
+      ]
+    },
+    "user_195": {
+      "att": 0.019221,
+      "influencers": [
+        "TheExpressUS"
+      ]
+    },
+    "user_112": {
+      "att": 0.07208,
+      "influencers": [
+        "user_72"
+      ]
+    },
+    "user_68": {
+      "att": -0.25213,
+      "influencers": [
+        "user_98"
+      ]
+    },
+    "user_54": {
+      "att": -0.027860000000000003,
+      "influencers": [
+        "bloomberg"
+      ]
+    },
+    "user_142": {
+      "att": -0.008014900000000002,
+      "influencers": [
+        "Lighthouse_seek"
+      ]
+    },
+    "user_72": {
+      "att": 0.06061,
+      "influencers": [
+        "FootballPizzaMan"
+      ]
+    },
+    "user_92": {
+      "att": 0.43438,
+      "influencers": [
+        "user_96"
+      ]
+    },
+    "GetOutOfTheWhey": {
+      "att": 0.0063419999999999995,
+      "influencers": [
+        "user_71"
+      ]
+    },
+    "user_117": {
+      "att": -0.9555210000000001,
+      "influencers": [
+        "user_76"
+      ]
+    },
+    "Codizier": {
+      "att": 0.0,
+      "influencers": [
+        "eortizospina"
+      ]
+    },
+    "user_113": {
+      "att": 0.11857,
+      "influencers": [
+        "user_181"
+      ]
+    },
+    "user_169": {
+      "att": 0.08683300000000001,
+      "influencers": [
+        "ControlCAD"
+      ]
+    },
+    "user_147": {
+      "att": 0.20528,
+      "influencers": [
+        "user_186"
+      ]
+    },
+    "Ashes0fTheWake": {
+      "att": 0.02751,
+      "influencers": [
+        "Shalmanese"
+      ]
+    },
+    "user_187": {
+      "att": -0.928921,
+      "influencers": [
+        "user_160"
+      ]
+    },
+    "user_51": {
+      "att": -0.23459000000000002,
+      "influencers": [
+        "PlusCardiologist1799"
+      ]
+    },
+    "zsreport": {
+      "att": 0.0,
+      "influencers": [
+        "Complete-Captain2211"
+      ]
+    },
+    "user_103": {
+      "att": -0.9436289999999999,
+      "influencers": [
+        "user_101"
+      ]
+    },
+    "user_130": {
+      "att": 0.193336,
+      "influencers": [
+        "user_188"
+      ]
+    },
+    "ImperiumRome": {
+      "att": 0.0,
+      "influencers": [
+        "pppppppppppppppppd"
+      ]
+    },
+    "Shalmanese": {
+      "att": 0.0,
+      "influencers": [
+        "Hob-999"
+      ]
+    },
+    "user_153": {
+      "att": 0.00028000000000000003,
+      "influencers": [
+        "whoamisri"
+      ]
+    },
+    "user_60": {
+      "att": 0.502322,
+      "influencers": [
+        "user_121"
+      ]
+    },
+    "user_59": {
+      "att": 0.92856,
+      "influencers": [
+        "user_123"
+      ]
+    },
+    "user_61": {
+      "att": 0.072863,
+      "influencers": [
+        "Ashes0fTheWake"
+      ]
+    },
+    "user_127": {
+      "att": -0.706906,
+      "influencers": [
+        "user_140"
+      ]
+    },
+    "esporx": {
+      "att": -0.242297,
+      "influencers": [
+        "user_51"
+      ]
+    },
+    "user_56": {
+      "att": 0.91443,
+      "influencers": [
+        "user_81"
+      ]
+    },
+    "user_86": {
+      "att": -0.42060000000000003,
+      "influencers": [
+        "user_196"
+      ]
+    },
+    "Hob-999": {
+      "att": 0.0015300000000000001,
+      "influencers": [
+        "FootballPizzaMan"
+      ]
+    },
+    "user_175": {
+      "att": -0.640093,
+      "influencers": [
+        "user_83"
+      ]
+    },
+    "SE_to_NW": {
+      "att": 0.0,
+      "influencers": [
+        "ubcstaffer123"
+      ]
+    },
+    "user_186": {
+      "att": 0.18016,
+      "influencers": [
+        "user_164"
+      ]
+    },
+    "whoamisri": {
+      "att": 0.0063419999999999995,
+      "influencers": [
+        "user_71"
+      ]
+    },
+    "user_166": {
+      "att": -0.072481,
+      "influencers": [
+        "user_134"
+      ]
+    },
+    "user_148": {
+      "att": 0.53137,
+      "influencers": [
+        "user_133"
+      ]
+    },
+    "user_184": {
+      "att": -0.012580000000000001,
+      "influencers": [
+        "user_50"
+      ]
+    },
+    "newsweek": {
+      "att": -0.000441,
+      "influencers": [
+        "user_85"
+      ]
+    },
+    "user_107": {
+      "att": 0.96487,
+      "influencers": [
+        "user_173"
+      ]
+    },
+    "user_98": {
+      "att": -0.243977,
+      "influencers": [
+        "user_51"
+      ]
+    },
+    "eortizospina": {
+      "att": 0.0,
+      "influencers": [
+        "ImperiumRome"
+      ]
+    },
+    "burtzev": {
+      "att": -0.017689,
+      "influencers": [
+        "kowalsky9999"
+      ]
+    },
+    "user_80": {
+      "att": 0.5906026,
+      "influencers": [
+        "user_102"
+      ]
+    },
+    "user_110": {
+      "att": 0.53545,
+      "influencers": [
+        "user_66"
+      ]
+    },
+    "user_91": {
+      "att": 0.992831,
+      "influencers": [
+        "user_145"
+      ]
+    },
+    "user_75": {
+      "att": 0.126842,
+      "influencers": [
+        "user_93"
+      ]
+    },
+    "TheTelegraph": {
+      "att": 0.021858899999999997,
+      "influencers": [
+        "user_61"
+      ]
+    },
+    "Complete-Captain2211": {
+      "att": -0.003774,
+      "influencers": [
+        "user_184"
+      ]
+    },
+    "UNITED24Media": {
+      "att": 0.024839999999999997,
+      "influencers": [
+        "user_181"
+      ]
+    },
+    "user_157": {
+      "att": 0.07999,
+      "influencers": [
+        "user_137"
+      ]
+    },
+    "user_122": {
+      "att": 0.90747,
+      "influencers": [
+        "user_173"
+      ]
+    },
+    "user_57": {
+      "att": 0.294316,
+      "influencers": [
+        "user_116"
+      ]
+    },
+    "user_95": {
+      "att": 0.3511926,
+      "influencers": [
+        "user_73"
+      ]
+    },
+    "user_124": {
+      "att": -0.206177,
+      "influencers": [
+        "user_51"
+      ]
+    },
+    "user_87": {
+      "att": 0.35300560000000003,
+      "influencers": [
+        "user_129"
+      ]
+    },
+    "wiredmagazine": {
+      "att": -0.008358,
+      "influencers": [
+        "user_54"
+      ]
+    },
+    "user_146": {
+      "att": 0.6687226000000001,
+      "influencers": [
+        "user_102"
+      ]
+    },
+    "user_151": {
+      "att": 0.06937,
+      "influencers": [
+        "darrenjyc"
+      ]
+    },
+    "user_165": {
+      "att": 0.5537599999999999,
+      "influencers": [
+        "user_67"
+      ]
+    },
+    "user_199": {
+      "att": -0.88844,
+      "influencers": [
+        "user_193"
+      ]
+    },
+    "user_193": {
+      "att": -0.9094463,
+      "influencers": [
+        "user_117"
+      ]
+    },
+    "user_141": {
+      "att": 0.01582,
+      "influencers": [
+        "Movie-Kino"
+      ]
+    },
+    "pppppppppppppppppd": {
+      "att": -0.020328,
+      "influencers": [
+        "user_171"
+      ]
+    },
+    "bloomberg": {
+      "att": 0.0,
+      "influencers": [
+        "darrenjyc"
+      ]
+    },
+    "user_158": {
+      "att": -0.915572,
+      "influencers": [
+        "user_199"
+      ]
+    },
+    "user_67": {
+      "att": 0.59431078,
+      "influencers": [
+        "user_80"
+      ]
+    },
+    "user_69": {
+      "att": 0.515382,
+      "influencers": [
+        "user_79"
+      ]
+    },
+    "user_96": {
+      "att": 0.511158,
+      "influencers": [
+        "user_165"
+      ]
+    },
+    "user_55": {
+      "att": 0.25454099999999996,
+      "influencers": [
+        "user_111"
+      ]
+    },
+    "user_155": {
+      "att": 0.466361,
+      "influencers": [
+        "user_148"
+      ]
+    },
+    "user_97": {
+      "att": 0.51249,
+      "influencers": [
+        "user_94"
+      ]
+    },
+    "Solopist112": {
+      "att": 0.010697000000000002,
+      "influencers": [
+        "user_157"
+      ]
+    },
+    "LelandTurbo0620": {
+      "att": 0.047873,
+      "influencers": [
+        "Ashes0fTheWake"
+      ]
+    },
+    "FootballPizzaMan": {
+      "att": -0.0002040000000000002,
+      "influencers": [
+        "user_184"
+      ]
+    },
+    "librephili": {
+      "att": 0.0,
+      "influencers": [
+        "ImperiumRome"
+      ]
+    },
+    "user_70": {
+      "att": -0.03325,
+      "influencers": [
+        "darrenjyc"
+      ]
+    },
+    "user_65": {
+      "att": 0.174682,
+      "influencers": [
+        "user_82"
+      ]
+    },
+    "user_183": {
+      "att": 0.68462,
+      "influencers": [
+        "user_120"
+      ]
+    },
+    "user_88": {
+      "att": -0.7340618,
+      "influencers": [
+        "user_127"
+      ]
+    },
+    "user_94": {
+      "att": 0.538132,
+      "influencers": [
+        "user_79"
+      ]
+    },
+    "PlusCardiologist1799": {
+      "att": -0.255189,
+      "influencers": [
+        "user_68"
+      ]
+    },
+    "user_181": {
+      "att": 0.112008,
+      "influencers": [
+        "user_186"
+      ]
+    },
+    "user_108": {
+      "att": 0.91344,
+      "influencers": [
+        "user_123"
+      ]
+    },
+    "user_120": {
+      "att": 0.632244,
+      "influencers": [
+        "user_143"
+      ]
+    },
+    "user_196": {
+      "att": -0.46745,
+      "influencers": [
+        "user_176"
+      ]
+    },
+    "user_126": {
+      "att": -0.9394787,
+      "influencers": [
+        "user_103"
+      ]
+    },
+    "darrenjyc": {
+      "att": 8.400000000000001e-05,
+      "influencers": [
+        "user_153"
+      ]
+    },
+    "user_179": {
+      "att": 0.236876,
+      "influencers": [
+        "user_188"
+      ]
+    },
+    "user_81": {
+      "att": 0.8754299999999999,
+      "influencers": [
+        "user_123"
+      ]
+    },
+    "ActivityEmotional228": {
+      "att": 0.0032326,
+      "influencers": [
+        "whoamisri"
+      ]
+    },
+    "iwanttodrink": {
+      "att": -0.299645,
+      "influencers": [
+        "user_167"
+      ]
+    },
+    "SwingDingeling": {
+      "att": 8.400000000000001e-05,
+      "influencers": [
+        "user_153"
+      ]
+    },
+    "user_163": {
+      "att": -0.03269,
+      "influencers": [
+        "ImperiumRome"
+      ]
+    },
+    "user_138": {
+      "att": -0.0059580000000000015,
+      "influencers": [
+        "qunow"
+      ]
+    },
+    "user_194": {
+      "att": -0.052716,
+      "influencers": [
+        "Novel_Sun3870"
+      ]
+    },
+    "user_164": {
+      "att": 0.151196,
+      "influencers": [
+        "user_188"
+      ]
+    },
+    "user_173": {
+      "att": 0.936369,
+      "influencers": [
+        "user_144"
+      ]
+    },
+    "user_66": {
+      "att": 0.5375166,
+      "influencers": [
+        "user_60"
+      ]
+    },
+    "user_152": {
+      "att": -0.08036,
+      "influencers": [
+        "user_58"
+      ]
+    },
+    "GreenStrength5876": {
+      "att": 0.005766299999999999,
+      "influencers": [
+        "user_195"
+      ]
+    },
+    "user_176": {
+      "att": -0.438785,
+      "influencers": [
+        "user_196"
+      ]
+    },
+    "user_114": {
+      "att": -0.751058,
+      "influencers": [
+        "user_170"
+      ]
+    }
+  },
+  "1": {
+    "user_147": {
+      "att": 0.178696,
+      "influencers": [
+        "LelandTurbo0620"
+      ]
+    },
+    "VaguelyFamiliarVoice": {
+      "att": 0.1147936507936508,
+      "influencers": [
+        "Xenon1898"
+      ]
+    },
+    "user_177": {
+      "att": 0.9097029999999999,
+      "influencers": [
+        "user_107"
+      ]
+    },
+    "ControlCAD": {
+      "att": 0.0609375,
+      "influencers": [
+        "zsreport"
+      ]
+    },
+    "user_90": {
+      "att": 0.39816229999999997,
+      "influencers": [
+        "SE_to_NW"
+      ]
+    },
+    "techreview": {
+      "att": 0.50183,
+      "influencers": [
+        "user_133"
+      ]
+    },
+    "user_80": {
+      "att": 0.57486142,
+      "influencers": [
+        "user_94"
+      ]
+    },
+    "user_183": {
+      "att": 0.657527234,
+      "influencers": [
+        "user_67"
+      ]
+    },
+    "Novel_Sun3870": {
+      "att": -0.008358,
+      "influencers": [
+        "user_54"
+      ]
+    },
+    "user_121": {
+      "att": 0.534645,
+      "influencers": [
+        "user_97"
+      ]
+    },
+    "user_137": {
+      "att": 0.1552238,
+      "influencers": [
+        "user_106"
+      ]
+    },
+    "user_124": {
+      "att": -0.2288099,
+      "influencers": [
+        "user_178"
+      ]
+    },
+    "ActivityEmotional228": {
+      "att": 0.0328125,
+      "influencers": [
+        "UNITED24Media"
+      ]
+    },
+    "user_99": {
+      "att": 0.05727209523809525,
+      "influencers": [
+        "VaguelyFamiliarVoice"
+      ]
+    },
+    "user_134": {
+      "att": -0.105987,
+      "influencers": [
+        "user_171"
+      ]
+    },
+    "user_155": {
+      "att": 0.46983470000000005,
+      "influencers": [
+        "user_115"
+      ]
+    },
+    "user_154": {
+      "att": 0.15294333999999998,
+      "influencers": [
+        "user_137"
+      ]
+    },
+    "user_181": {
+      "att": 0.12126274285714285,
+      "influencers": [
+        "Dry-Interaction-1246"
+      ]
+    },
+    "user_180": {
+      "att": 0.260491,
+      "influencers": [
+        "user_111"
+      ]
+    },
+    "user_56": {
+      "att": 0.914133,
+      "influencers": [
+        "user_108"
+      ]
+    },
+    "Mary_Ellen_Katz": {
+      "att": 0.2274046,
+      "influencers": [
+        "user_65"
+      ]
+    },
+    "user_149": {
+      "att": 0.7271985,
+      "influencers": [
+        "user_62"
+      ]
+    },
+    "burtzev": {
+      "att": 0.055411666666666665,
+      "influencers": [
+        "user_191"
+      ]
+    },
+    "user_143": {
+      "att": 0.61892278,
+      "influencers": [
+        "user_146"
+      ]
+    },
+    "user_144": {
+      "att": 0.87851,
+      "influencers": [
+        "user_81"
+      ]
+    },
+    "user_66": {
+      "att": 0.53000862,
+      "influencers": [
+        "user_97"
+      ]
+    },
+    "user_115": {
+      "att": 0.464872,
+      "influencers": [
+        "user_92"
+      ]
+    },
+    "user_91": {
+      "att": 0.9758924,
+      "influencers": [
+        "user_173"
+      ]
+    },
+    "wiredmagazine": {
+      "att": 0.0411545,
+      "influencers": [
+        "user_135"
+      ]
+    },
+    "user_171": {
+      "att": -0.0792281,
+      "influencers": [
+        "user_134"
+      ]
+    },
+    "SE_to_NW": {
+      "att": 0.402387,
+      "influencers": [
+        "user_189"
+      ]
+    },
+    "user_129": {
+      "att": 0.3039564,
+      "influencers": [
+        "SwingDingeling"
+      ]
+    },
+    "user_160": {
+      "att": -0.9465953,
+      "influencers": [
+        "user_187"
+      ]
+    },
+    "user_70": {
+      "att": -0.023275000000000004,
+      "influencers": [
+        "kazkh"
+      ]
+    },
+    "user_92": {
+      "att": 0.42351468999999997,
+      "influencers": [
+        "user_90"
+      ]
+    },
+    "user_173": {
+      "att": 0.9296982,
+      "influencers": [
+        "user_56"
+      ]
+    },
+    "user_138": {
+      "att": -0.016602600000000002,
+      "influencers": [
+        "user_192"
+      ]
+    },
+    "user_117": {
+      "att": -0.9353967000000001,
+      "influencers": [
+        "user_199"
+      ]
+    },
+    "user_64": {
+      "att": 0.35751668000000003,
+      "influencers": [
+        "user_87"
+      ]
+    },
+    "Dry-Interaction-1246": {
+      "att": 0.14588300199999998,
+      "influencers": [
+        "user_154"
+      ]
+    },
+    "user_69": {
+      "att": 0.5273664,
+      "influencers": [
+        "user_77"
+      ]
+    },
+    "user_187": {
+      "att": -0.9354457,
+      "influencers": [
+        "user_76"
+      ]
+    },
+    "user_109": {
+      "att": -0.6970668,
+      "influencers": [
+        "user_127"
+      ]
+    },
+    "user_95": {
+      "att": 0.33032742000000004,
+      "influencers": [
+        "user_73"
+      ]
+    },
+    "user_179": {
+      "att": 0.219422,
+      "influencers": [
+        "user_147"
+      ]
+    },
+    "user_136": {
+      "att": 0.13060302285714287,
+      "influencers": [
+        "user_181"
+      ]
+    },
+    "user_68": {
+      "att": -0.24968410000000002,
+      "influencers": [
+        "user_98"
+      ]
+    },
+    "user_75": {
+      "att": 0.1372304,
+      "influencers": [
+        "user_198"
+      ]
+    },
+    "esporx": {
+      "att": 0.024375,
+      "influencers": [
+        "Movie-Kino"
+      ]
+    },
+    "user_52": {
+      "att": 0.81420275,
+      "influencers": [
+        "user_123"
+      ]
+    },
+    "Economy-Specialist38": {
+      "att": 0.032492599999999996,
+      "influencers": [
+        "Novel_Sun3870"
+      ]
+    },
+    "ImperiumRome": {
+      "att": 0.054605,
+      "influencers": [
+        "user_132"
+      ]
+    },
+    "user_96": {
+      "att": 0.5361038340000001,
+      "influencers": [
+        "user_67"
+      ]
+    },
+    "Vermontbuilder": {
+      "att": -0.009806999999999998,
+      "influencers": [
+        "user_163"
+      ]
+    },
+    "darrenjyc": {
+      "att": 0.3603877403333333,
+      "influencers": [
+        "user_92"
+      ]
+    },
+    "user_176": {
+      "att": -0.44738449999999996,
+      "influencers": [
+        "user_196"
+      ]
+    },
+    "user_93": {
+      "att": 0.137968,
+      "influencers": [
+        "Solopist112"
+      ]
+    },
+    "Lighthouse_seek": {
+      "att": 0.06999999999999999,
+      "influencers": [
+        "GreenStrength5876"
+      ]
+    },
+    "user_62": {
+      "att": 0.71817928,
+      "influencers": [
+        "user_146"
+      ]
+    },
+    "ubcstaffer123": {
+      "att": 0.1936088,
+      "influencers": [
+        "user_147"
+      ]
+    },
+    "user_162": {
+      "att": 0.011368,
+      "influencers": [
+        "kazkh"
+      ]
+    },
+    "GetOutOfTheWhey": {
+      "att": 0.07083333333333333,
+      "influencers": [
+        "eortizospina"
+      ]
+    },
+    "newsweek": {
+      "att": 0.09191911999999999,
+      "influencers": [
+        "user_75"
+      ]
+    },
+    "Complete-Captain2211": {
+      "att": 0.50183,
+      "influencers": [
+        "user_133"
+      ]
+    },
+    "librephili": {
+      "att": 0.14837882285714285,
+      "influencers": [
+        "user_181"
+      ]
+    },
+    "user_106": {
+      "att": 0.15872219999999998,
+      "influencers": [
+        "LelandTurbo0620"
+      ]
+    },
+    "user_196": {
+      "att": -0.46729699999999996,
+      "influencers": [
+        "user_174"
+      ]
+    },
+    "user_123": {
+      "att": 0.8801479999999999,
+      "influencers": [
+        "user_59"
+      ]
+    },
+    "user_103": {
+      "att": -0.93337419,
+      "influencers": [
+        "user_193"
+      ]
+    },
+    "user_76": {
+      "att": -0.93830289,
+      "influencers": [
+        "user_193"
+      ]
+    },
+    "TheExpressUS": {
+      "att": -0.002942099999999999,
+      "influencers": [
+        "Vermontbuilder"
+      ]
+    },
+    "user_174": {
+      "att": -0.45303800000000005,
+      "influencers": [
+        "user_86"
+      ]
+    },
+    "user_81": {
+      "att": 0.885042,
+      "influencers": [
+        "user_122"
+      ]
+    },
+    "user_190": {
+      "att": -0.6044049,
+      "influencers": [
+        "user_53"
+      ]
+    },
+    "user_113": {
+      "att": 0.137047,
+      "influencers": [
+        "user_186"
+      ]
+    },
+    "Movie-Kino": {
+      "att": 0.056959,
+      "influencers": [
+        "user_153"
+      ]
+    },
+    "user_167": {
+      "att": -0.255614,
+      "influencers": [
+        "user_182"
+      ]
+    },
+    "user_67": {
+      "att": 0.5742274660000001,
+      "influencers": [
+        "user_69"
+      ]
+    },
+    "user_189": {
+      "att": 0.49300200000000005,
+      "influencers": [
+        "user_77"
+      ]
+    },
+    "user_126": {
+      "att": -0.939125957,
+      "influencers": [
+        "user_76"
+      ]
+    },
+    "Ashes0fTheWake": {
+      "att": 0.029999999999999992,
+      "influencers": [
+        "Solopist112"
+      ]
+    },
+    "user_128": {
+      "att": 0.74172455,
+      "influencers": [
+        "user_149"
+      ]
+    },
+    "user_79": {
+      "att": 0.572396426,
+      "influencers": [
+        "user_80"
+      ]
+    },
+    "user_127": {
+      "att": -0.6878872,
+      "influencers": [
+        "user_118"
+      ]
+    },
+    "user_105": {
+      "att": -0.007261300000000002,
+      "influencers": [
+        "user_166"
+      ]
+    },
+    "user_145": {
+      "att": 0.9515616,
+      "influencers": [
+        "user_81"
+      ]
+    },
+    "pppppppppppppppppd": {
+      "att": 0.108844,
+      "influencers": [
+        "user_150"
+      ]
+    },
+    "user_182": {
+      "att": -0.204658,
+      "influencers": [
+        "user_51"
+      ]
+    },
+    "user_146": {
+      "att": 0.68626537,
+      "influencers": [
+        "user_149"
+      ]
+    },
+    "user_98": {
+      "att": -0.2321813,
+      "influencers": [
+        "user_182"
+      ]
+    },
+    "user_198": {
+      "att": 0.16469566666666666,
+      "influencers": [
+        "FootballPizzaMan"
+      ]
+    },
+    "user_193": {
+      "att": -0.918103277,
+      "influencers": [
+        "user_76"
+      ]
+    },
+    "user_63": {
+      "att": 0.5631069999999999,
+      "influencers": [
+        "user_77"
+      ]
+    },
+    "user_71": {
+      "att": 0.049797999999999995,
+      "influencers": [
+        "LelandTurbo0620"
+      ]
+    },
+    "user_108": {
+      "att": 0.9136479,
+      "influencers": [
+        "user_56"
+      ]
+    },
+    "user_158": {
+      "att": -0.9078794,
+      "influencers": [
+        "user_84"
+      ]
+    },
+    "user_78": {
+      "att": 0.4410636,
+      "influencers": [
+        "user_60"
+      ]
+    },
+    "user_195": {
+      "att": 0.0134547,
+      "influencers": [
+        "financialtimes"
+      ]
+    },
+    "user_65": {
+      "att": 0.1522774,
+      "influencers": [
+        "Solopist112"
+      ]
+    },
+    "user_192": {
+      "att": -0.0319501,
+      "influencers": [
+        "Vermontbuilder"
+      ]
+    },
+    "user_61": {
+      "att": 0.060847849999999995,
+      "influencers": [
+        "ActivityEmotional228"
+      ]
+    },
+    "user_150": {
+      "att": 0.12701482285714286,
+      "influencers": [
+        "user_181"
+      ]
+    },
+    "FootballPizzaMan": {
+      "att": 0.16996425555555555,
+      "influencers": [
+        "user_198"
+      ]
+    },
+    "user_132": {
+      "att": 0.04356660999999999,
+      "influencers": [
+        "user_105"
+      ]
+    },
+    "user_159": {
+      "att": -0.2947482,
+      "influencers": [
+        "user_167"
+      ]
+    },
+    "user_168": {
+      "att": 0.3070728,
+      "influencers": [
+        "user_57"
+      ]
+    },
+    "user_104": {
+      "att": 0.008700999999999997,
+      "influencers": [
+        "Lighthouse_seek"
+      ]
+    },
+    "user_120": {
+      "att": 0.6148390398000001,
+      "influencers": [
+        "user_67"
+      ]
+    },
+    "user_130": {
+      "att": 0.18632447666666668,
+      "influencers": [
+        "FootballPizzaMan"
+      ]
+    },
+    "user_139": {
+      "att": -0.33801996,
+      "influencers": [
+        "user_159"
+      ]
+    },
+    "user_97": {
+      "att": 0.5310112398,
+      "influencers": [
+        "user_67"
+      ]
+    },
+    "financialtimes": {
+      "att": 0.0,
+      "influencers": [
+        "CheLeung"
+      ]
+    },
+    "user_148": {
+      "att": 0.538087,
+      "influencers": [
+        "user_165"
+      ]
+    },
+    "user_185": {
+      "att": -0.599773,
+      "influencers": [
+        "user_83"
+      ]
+    },
+    "qunow": {
+      "att": 0.04289266666666667,
+      "influencers": [
+        "user_184"
+      ]
+    },
+    "user_111": {
+      "att": 0.249489,
+      "influencers": [
+        "YaleE360"
+      ]
+    },
+    "user_101": {
+      "att": -0.94579471,
+      "influencers": [
+        "user_187"
+      ]
+    },
+    "user_119": {
+      "att": -0.28952447,
+      "influencers": [
+        "user_124"
+      ]
+    },
+    "UNITED24Media": {
+      "att": 0.002610299999999999,
+      "influencers": [
+        "user_104"
+      ]
+    },
+    "user_165": {
+      "att": 0.57208371194,
+      "influencers": [
+        "user_120"
+      ]
+    },
+    "zsreport": {
+      "att": 0.014583333333333334,
+      "influencers": [
+        "Codizier"
+      ]
+    },
+    "user_140": {
+      "att": -0.6301054700000001,
+      "influencers": [
+        "user_190"
+      ]
+    },
+    "user_157": {
+      "att": 0.085993,
+      "influencers": [
+        "eortizospina"
+      ]
+    },
+    "Shalmanese": {
+      "att": 0.01708,
+      "influencers": [
+        "user_70"
+      ]
+    },
+    "user_51": {
+      "att": -0.258068,
+      "influencers": [
+        "user_131"
+      ]
+    },
+    "Hob-999": {
+      "att": 0.31590168,
+      "influencers": [
+        "user_87"
+      ]
+    },
+    "iwanttodrink": {
+      "att": 0.021249999999999998,
+      "influencers": [
+        "GetOutOfTheWhey"
+      ]
+    },
+    "user_142": {
+      "att": 0.012572569999999998,
+      "influencers": [
+        "user_72"
+      ]
+    },
+    "user_87": {
+      "att": 0.32346622,
+      "influencers": [
+        "user_55"
+      ]
+    },
+    "user_74": {
+      "att": -0.019544100000000002,
+      "influencers": [
+        "user_191"
+      ]
+    },
+    "user_57": {
+      "att": 0.29720812,
+      "influencers": [
+        "user_129"
+      ]
+    },
+    "user_133": {
+      "att": 0.5265382398,
+      "influencers": [
+        "user_67"
+      ]
+    },
+    "user_55": {
+      "att": 0.277276926,
+      "influencers": [
+        "user_95"
+      ]
+    },
+    "user_161": {
+      "att": 0.8824734,
+      "influencers": [
+        "user_123"
+      ]
+    },
+    "user_199": {
+      "att": -0.901920257,
+      "influencers": [
+        "user_103"
+      ]
+    },
+    "user_166": {
+      "att": -0.0507367,
+      "influencers": [
+        "PlusCardiologist1799"
+      ]
+    },
+    "user_175": {
+      "att": -0.627493,
+      "influencers": [
+        "user_53"
+      ]
+    },
+    "Codizier": {
+      "att": 0.012690000000000002,
+      "influencers": [
+        "user_50"
+      ]
+    },
+    "TheTelegraph": {
+      "att": -0.000441,
+      "influencers": [
+        "user_85"
+      ]
+    },
+    "user_85": {
+      "att": -0.010835999999999998,
+      "influencers": [
+        "user_163"
+      ]
+    },
+    "PlusCardiologist1799": {
+      "att": 0.012690000000000002,
+      "influencers": [
+        "user_50"
+      ]
+    },
+    "user_116": {
+      "att": 0.263686436,
+      "influencers": [
+        "user_57"
+      ]
+    },
+    "kazkh": {
+      "att": 0.020811,
+      "influencers": [
+        "user_151"
+      ]
+    },
+    "user_72": {
+      "att": 0.04154437,
+      "influencers": [
+        "TheExpressUS"
+      ]
+    },
+    "user_131": {
+      "att": -0.30585234099999997,
+      "influencers": [
+        "user_119"
+      ]
+    },
+    "user_83": {
+      "att": -0.58837847,
+      "influencers": [
+        "user_190"
+      ]
+    },
+    "user_82": {
+      "att": 0.0974275,
+      "influencers": [
+        "user_135"
+      ]
+    },
+    "user_77": {
+      "att": 0.5501571,
+      "influencers": [
+        "user_148"
+      ]
+    },
+    "user_153": {
+      "att": 0.021195999999999996,
+      "influencers": [
+        "Lighthouse_seek"
+      ]
+    },
+    "Cybertronian1512": {
+      "att": 0.0257979,
+      "influencers": [
+        "user_157"
+      ]
+    },
+    "user_59": {
+      "att": 0.9222330000000001,
+      "influencers": [
+        "user_122"
+      ]
+    },
+    "user_110": {
+      "att": 0.533817586,
+      "influencers": [
+        "user_66"
+      ]
+    },
+    "user_164": {
+      "att": 0.14027529523809523,
+      "influencers": [
+        "VaguelyFamiliarVoice"
+      ]
+    },
+    "user_188": {
+      "att": 0.1960307,
+      "influencers": [
+        "user_111"
+      ]
+    },
+    "LelandTurbo0620": {
+      "att": 0.08897916666666666,
+      "influencers": [
+        "esporx"
+      ]
+    },
+    "user_184": {
+      "att": -0.005395600000000001,
+      "influencers": [
+        "user_162"
+      ]
+    },
+    "user_118": {
+      "att": -0.639488641,
+      "influencers": [
+        "user_140"
+      ]
+    },
+    "user_191": {
+      "att": 0.025529000000000003,
+      "influencers": [
+        "Shalmanese"
+      ]
+    },
+    "user_186": {
+      "att": 0.17062564685714285,
+      "influencers": [
+        "librephili"
+      ]
+    },
+    "user_114": {
+      "att": -0.7539686,
+      "influencers": [
+        "user_170"
+      ]
+    },
+    "user_197": {
+      "att": -0.044550099999999995,
+      "influencers": [
+        "Vermontbuilder"
+      ]
+    },
+    "user_178": {
+      "att": -0.26577697,
+      "influencers": [
+        "user_124"
+      ]
+    },
+    "user_122": {
+      "att": 0.91413846,
+      "influencers": [
+        "user_173"
+      ]
+    },
+    "user_125": {
+      "att": 0.11563364685714285,
+      "influencers": [
+        "librephili"
+      ]
+    },
+    "user_169": {
+      "att": 0.08747685000000001,
+      "influencers": [
+        "LelandTurbo0620"
+      ]
+    },
+    "user_135": {
+      "att": 0.08706808857142857,
+      "influencers": [
+        "user_164"
+      ]
+    },
+    "user_58": {
+      "att": 0.001799982999999998,
+      "influencers": [
+        "user_132"
+      ]
+    },
+    "Xenon1898": {
+      "att": 0.1436088,
+      "influencers": [
+        "user_147"
+      ]
+    },
+    "user_73": {
+      "att": 0.2719961,
+      "influencers": [
+        "user_111"
+      ]
+    },
+    "user_94": {
+      "att": 0.5375235502000001,
+      "influencers": [
+        "user_96"
+      ]
+    },
+    "user_86": {
+      "att": -0.43033140000000003,
+      "influencers": [
+        "user_174"
+      ]
+    },
+    "user_107": {
+      "att": 0.96087748,
+      "influencers": [
+        "user_145"
+      ]
+    },
+    "user_151": {
+      "att": 0.05830678,
+      "influencers": [
+        "Economy-Specialist38"
+      ]
+    },
+    "CheLeung": {
+      "att": 0.013069982999999997,
+      "influencers": [
+        "user_132"
+      ]
+    },
+    "user_84": {
+      "att": -0.90357001,
+      "influencers": [
+        "user_117"
+      ]
+    },
+    "user_152": {
+      "att": -0.052215590000000006,
+      "influencers": [
+        "user_195"
+      ]
+    },
+    "user_100": {
+      "att": 0.1039507,
+      "influencers": [
+        "Movie-Kino"
+      ]
+    },
+    "user_112": {
+      "att": 0.0543769949,
+      "influencers": [
+        "CheLeung"
+      ]
+    },
+    "user_60": {
+      "att": 0.5124565502,
+      "influencers": [
+        "user_96"
+      ]
+    },
+    "whoamisri": {
+      "att": 0.0128678,
+      "influencers": [
+        "qunow"
+      ]
+    },
+    "eortizospina": {
+      "att": 0.08662349999999999,
+      "influencers": [
+        "burtzev"
+      ]
+    },
+    "user_50": {
+      "att": 0.03945375,
+      "influencers": [
+        "ActivityEmotional228"
+      ]
+    },
+    "user_194": {
+      "att": -0.04188198,
+      "influencers": [
+        "user_138"
+      ]
+    },
+    "user_54": {
+      "att": -0.018962005100000005,
+      "influencers": [
+        "user_58"
+      ]
+    },
+    "GreenStrength5876": {
+      "att": 0.01631309847,
+      "influencers": [
+        "user_112"
+      ]
+    },
+    "user_170": {
+      "att": -0.75872258,
+      "influencers": [
+        "user_114"
+      ]
+    },
+    "user_172": {
+      "att": -0.20344897,
+      "influencers": [
+        "user_124"
+      ]
+    },
+    "user_163": {
+      "att": -0.010015199999999998,
+      "influencers": [
+        "qunow"
+      ]
+    },
+    "YaleE360": {
+      "att": 0.272039866,
+      "influencers": [
+        "user_87"
+      ]
+    },
+    "user_89": {
+      "att": 0.36582813999999997,
+      "influencers": [
+        "user_168"
+      ]
+    },
+    "SwingDingeling": {
+      "att": 0.32944869,
+      "influencers": [
+        "user_90"
+      ]
+    },
+    "user_102": {
+      "att": 0.58758646506,
+      "influencers": [
+        "user_94"
+      ]
+    },
+    "bloomberg": {
+      "att": -0.004980780000000001,
+      "influencers": [
+        "user_138"
+      ]
+    },
+    "user_88": {
+      "att": -0.7056898523,
+      "influencers": [
+        "user_118"
+      ]
+    },
+    "Acrzyguy": {
+      "att": 0.00386034,
+      "influencers": [
+        "whoamisri"
+      ]
+    },
+    "user_53": {
+      "att": -0.62503126,
+      "influencers": [
+        "user_127"
+      ]
+    },
+    "kowalsky9999": {
+      "att": 0.06403436666666668,
+      "influencers": [
+        "TheTelegraph"
+      ]
+    },
+    "Solopist112": {
+      "att": 0.07380699999999998,
+      "influencers": [
+        "PlusCardiologist1799"
+      ]
+    },
+    "user_141": {
+      "att": 0.0260134,
+      "influencers": [
+        "user_71"
+      ]
+    },
+    "user_156": {
+      "att": 0.4092626,
+      "influencers": [
+        "user_115"
+      ]
+    }
+  },
+  "2": {
+    "user_122": {
+      "att": 0.903941322,
+      "influencers": [
+        "user_123"
+      ]
+    },
+    "Novel_Sun3870": {
+      "att": 0.44540060000000004,
+      "influencers": [
+        "user_189"
+      ]
+    },
+    "user_139": {
+      "att": -0.32836967429999997,
+      "influencers": [
+        "user_131"
+      ]
+    },
+    "ubcstaffer123": {
+      "att": 0.14829789999999998,
+      "influencers": [
+        "user_157"
+      ]
+    },
+    "user_134": {
+      "att": -0.0811734,
+      "influencers": [
+        "user_70"
+      ]
+    },
+    "zsreport": {
+      "att": 0.11375,
+      "influencers": [
+        "bloomberg"
+      ]
+    },
+    "user_74": {
+      "att": -0.013680870000000001,
+      "influencers": [
+        "Economy-Specialist38"
+      ]
+    },
+    "UNITED24Media": {
+      "att": -0.0030045599999999994,
+      "influencers": [
+        "user_163"
+      ]
+    },
+    "user_60": {
+      "att": 0.51692950514,
+      "influencers": [
+        "user_69"
+      ]
+    },
+    "user_50": {
+      "att": 0.027617625,
+      "influencers": [
+        "whoamisri"
+      ]
+    },
+    "user_157": {
+      "att": 0.0601951,
+      "influencers": [
+        "SE_to_NW"
+      ]
+    },
+    "user_178": {
+      "att": -0.27290122,
+      "influencers": [
+        "user_119"
+      ]
+    },
+    "user_71": {
+      "att": 0.0348586,
+      "influencers": [
+        "YaleE360"
+      ]
+    },
+    "kazkh": {
+      "att": -0.023768429999999997,
+      "influencers": [
+        "user_171"
+      ]
+    },
+    "financialtimes": {
+      "att": 0.12333333333333332,
+      "influencers": [
+        "PlusCardiologist1799"
+      ]
+    },
+    "user_172": {
+      "att": -0.203811679,
+      "influencers": [
+        "user_182"
+      ]
+    },
+    "user_88": {
+      "att": -0.70310293661,
+      "influencers": [
+        "user_109"
+      ]
+    },
+    "newsweek": {
+      "att": 0.23256410256410254,
+      "influencers": [
+        "wiredmagazine"
+      ]
+    },
+    "user_116": {
+      "att": 0.2340805052,
+      "influencers": [
+        "VaguelyFamiliarVoice"
+      ]
+    },
+    "user_99": {
+      "att": 0.04063046156666667,
+      "influencers": [
+        "user_58"
+      ]
+    },
+    "user_148": {
+      "att": 0.54170803,
+      "influencers": [
+        "user_77"
+      ]
+    },
+    "user_130": {
+      "att": 0.17491650366666667,
+      "influencers": [
+        "ubcstaffer123"
+      ]
+    },
+    "user_131": {
+      "att": -0.3025210987,
+      "influencers": [
+        "user_159"
+      ]
+    },
+    "user_175": {
+      "att": -0.64561126,
+      "influencers": [
+        "user_127"
+      ]
+    },
+    "pppppppppppppppppd": {
+      "att": 0.12333333333333332,
+      "influencers": [
+        "PlusCardiologist1799"
+      ]
+    },
+    "user_153": {
+      "att": 0.007706670999999998,
+      "influencers": [
+        "kazkh"
+      ]
+    },
+    "user_97": {
+      "att": 0.5561595798,
+      "influencers": [
+        "user_120"
+      ]
+    },
+    "user_127": {
+      "att": -0.658034581,
+      "influencers": [
+        "user_83"
+      ]
+    },
+    "user_117": {
+      "att": -0.9347899470000001,
+      "influencers": [
+        "user_103"
+      ]
+    },
+    "Dry-Interaction-1246": {
+      "att": 0.17918090685714286,
+      "influencers": [
+        "user_136"
+      ]
+    },
+    "user_141": {
+      "att": 0.055209379999999995,
+      "influencers": [
+        "pppppppppppppppppd"
+      ]
+    },
+    "Lighthouse_seek": {
+      "att": 0.30909822600000003,
+      "influencers": [
+        "user_95"
+      ]
+    },
+    "user_78": {
+      "att": 0.435798927,
+      "influencers": [
+        "user_92"
+      ]
+    },
+    "user_118": {
+      "att": -0.6275739487,
+      "influencers": [
+        "user_185"
+      ]
+    },
+    "burtzev": {
+      "att": 0.5364320999999999,
+      "influencers": [
+        "user_63"
+      ]
+    },
+    "user_166": {
+      "att": -0.03290539000000001,
+      "influencers": [
+        "user_104"
+      ]
+    },
+    "iwanttodrink": {
+      "att": 0.0240625,
+      "influencers": [
+        "SE_to_NW"
+      ]
+    },
+    "user_177": {
+      "att": 0.881052925,
+      "influencers": [
+        "user_52"
+      ]
+    },
+    "user_86": {
+      "att": -0.43714338,
+      "influencers": [
+        "user_174"
+      ]
+    },
+    "user_107": {
+      "att": 0.965381956,
+      "influencers": [
+        "user_91"
+      ]
+    },
+    "TheExpressUS": {
+      "att": 0.12918521,
+      "influencers": [
+        "user_100"
+      ]
+    },
+    "user_63": {
+      "att": 0.5658000135819999,
+      "influencers": [
+        "user_165"
+      ]
+    },
+    "user_162": {
+      "att": 0.003853339,
+      "influencers": [
+        "user_74"
+      ]
+    },
+    "Movie-Kino": {
+      "att": 0.349039866,
+      "influencers": [
+        "user_87"
+      ]
+    },
+    "user_57": {
+      "att": 0.299232604,
+      "influencers": [
+        "user_129"
+      ]
+    },
+    "user_112": {
+      "att": 0.035885506430000005,
+      "influencers": [
+        "user_105"
+      ]
+    },
+    "user_53": {
+      "att": -0.648452762983,
+      "influencers": [
+        "user_88"
+      ]
+    },
+    "user_151": {
+      "att": 0.03583396600000001,
+      "influencers": [
+        "user_138"
+      ]
+    },
+    "user_105": {
+      "att": -0.029434930000000005,
+      "influencers": [
+        "user_134"
+      ]
+    },
+    "CheLeung": {
+      "att": 0.00403641,
+      "influencers": [
+        "user_195"
+      ]
+    },
+    "user_100": {
+      "att": 0.11393460999999999,
+      "influencers": [
+        "user_75"
+      ]
+    },
+    "Cybertronian1512": {
+      "att": 0.093875,
+      "influencers": [
+        "pppppppppppppppppd"
+      ]
+    },
+    "user_95": {
+      "att": 0.3004599632307693,
+      "influencers": [
+        "wiredmagazine"
+      ]
+    },
+    "user_96": {
+      "att": 0.5475409236000001,
+      "influencers": [
+        "user_67"
+      ]
+    },
+    "Economy-Specialist38": {
+      "att": 0.015,
+      "influencers": [
+        "librephili"
+      ]
+    },
+    "user_165": {
+      "att": 0.5861354323579999,
+      "influencers": [
+        "user_143"
+      ]
+    },
+    "user_59": {
+      "att": 0.9110757,
+      "influencers": [
+        "user_81"
+      ]
+    },
+    "user_185": {
+      "att": -0.6172514743,
+      "influencers": [
+        "user_127"
+      ]
+    },
+    "user_62": {
+      "att": 0.725242861,
+      "influencers": [
+        "user_128"
+      ]
+    },
+    "esporx": {
+      "att": 0.3603877403333333,
+      "influencers": [
+        "user_92"
+      ]
+    },
+    "user_108": {
+      "att": 0.91287624,
+      "influencers": [
+        "user_59"
+      ]
+    },
+    "user_126": {
+      "att": -0.9411265829000001,
+      "influencers": [
+        "user_101"
+      ]
+    },
+    "user_194": {
+      "att": -0.036447915,
+      "influencers": [
+        "kazkh"
+      ]
+    },
+    "user_66": {
+      "att": 0.53226309906,
+      "influencers": [
+        "user_94"
+      ]
+    },
+    "user_167": {
+      "att": -0.24032720000000002,
+      "influencers": [
+        "user_182"
+      ]
+    },
+    "user_51": {
+      "att": -0.25274576000000004,
+      "influencers": [
+        "user_167"
+      ]
+    },
+    "user_72": {
+      "att": 0.06545988185714285,
+      "influencers": [
+        "user_181"
+      ]
+    },
+    "user_159": {
+      "att": -0.282147468,
+      "influencers": [
+        "user_51"
+      ]
+    },
+    "user_190": {
+      "att": -0.634014310983,
+      "influencers": [
+        "user_88"
+      ]
+    },
+    "user_161": {
+      "att": 0.88128438,
+      "influencers": [
+        "user_144"
+      ]
+    },
+    "user_170": {
+      "att": -0.757296386,
+      "influencers": [
+        "user_114"
+      ]
+    },
+    "wiredmagazine": {
+      "att": 0.21653846153846154,
+      "influencers": [
+        "ImperiumRome"
+      ]
+    },
+    "user_191": {
+      "att": 0.017870300000000002,
+      "influencers": [
+        "SE_to_NW"
+      ]
+    },
+    "user_160": {
+      "att": -0.93498053,
+      "influencers": [
+        "user_158"
+      ]
+    },
+    "darrenjyc": {
+      "att": 0.05463796455714286,
+      "influencers": [
+        "user_72"
+      ]
+    },
+    "user_152": {
+      "att": -0.036550913000000004,
+      "influencers": [
+        "techreview"
+      ]
+    },
+    "user_183": {
+      "att": 0.6319879916,
+      "influencers": [
+        "user_79"
+      ]
+    },
+    "user_189": {
+      "att": 0.5001802515420001,
+      "influencers": [
+        "user_60"
+      ]
+    },
+    "user_147": {
+      "att": 0.1664776,
+      "influencers": [
+        "user_93"
+      ]
+    },
+    "user_92": {
+      "att": 0.406208725,
+      "influencers": [
+        "user_89"
+      ]
+    },
+    "user_188": {
+      "att": 0.2204045678,
+      "influencers": [
+        "user_55"
+      ]
+    },
+    "user_56": {
+      "att": 0.93266082,
+      "influencers": [
+        "user_91"
+      ]
+    },
+    "user_103": {
+      "att": -0.9337989171000001,
+      "influencers": [
+        "user_117"
+      ]
+    },
+    "Ashes0fTheWake": {
+      "att": 0.215,
+      "influencers": [
+        "kowalsky9999"
+      ]
+    },
+    "user_184": {
+      "att": -0.003776920000000001,
+      "influencers": [
+        "techreview"
+      ]
+    },
+    "user_176": {
+      "att": -0.44431216399999995,
+      "influencers": [
+        "user_86"
+      ]
+    },
+    "user_145": {
+      "att": 0.9304089975000001,
+      "influencers": [
+        "user_177"
+      ]
+    },
+    "user_70": {
+      "att": -0.0162925,
+      "influencers": [
+        "techreview"
+      ]
+    },
+    "GreenStrength5876": {
+      "att": 0.0012109229999999998,
+      "influencers": [
+        "CheLeung"
+      ]
+    },
+    "user_109": {
+      "att": -0.6824825888949,
+      "influencers": [
+        "user_53"
+      ]
+    },
+    "eortizospina": {
+      "att": 0.265,
+      "influencers": [
+        "Codizier"
+      ]
+    },
+    "Xenon1898": {
+      "att": 0.18994328000000002,
+      "influencers": [
+        "user_147"
+      ]
+    },
+    "user_67": {
+      "att": 0.59155562368,
+      "influencers": [
+        "user_183"
+      ]
+    },
+    "user_110": {
+      "att": 0.5340658102,
+      "influencers": [
+        "user_121"
+      ]
+    },
+    "Vermontbuilder": {
+      "att": 0.010765651929000001,
+      "influencers": [
+        "user_112"
+      ]
+    },
+    "user_135": {
+      "att": 0.079006192,
+      "influencers": [
+        "user_157"
+      ]
+    },
+    "user_104": {
+      "att": 0.014375987499999998,
+      "influencers": [
+        "user_50"
+      ]
+    },
+    "user_89": {
+      "att": 0.389699878,
+      "influencers": [
+        "Novel_Sun3870"
+      ]
+    },
+    "LelandTurbo0620": {
+      "att": 0.23055555555555554,
+      "influencers": [
+        "Codizier"
+      ]
+    },
+    "user_115": {
+      "att": 0.48362032,
+      "influencers": [
+        "user_69"
+      ]
+    },
+    "user_196": {
+      "att": -0.46301929999999997,
+      "influencers": [
+        "user_174"
+      ]
+    },
+    "librephili": {
+      "att": 0.03001922,
+      "influencers": [
+        "user_138"
+      ]
+    },
+    "user_146": {
+      "att": 0.6699821564799999,
+      "influencers": [
+        "user_183"
+      ]
+    },
+    "user_119": {
+      "att": -0.30117803129,
+      "influencers": [
+        "user_139"
+      ]
+    },
+    "user_93": {
+      "att": 0.14226082,
+      "influencers": [
+        "user_65"
+      ]
+    },
+    "user_138": {
+      "att": -0.0008561680710000019,
+      "influencers": [
+        "user_112"
+      ]
+    },
+    "user_76": {
+      "att": -0.93914999787,
+      "influencers": [
+        "user_126"
+      ]
+    },
+    "user_129": {
+      "att": 0.2959525578,
+      "influencers": [
+        "user_55"
+      ]
+    },
+    "Shalmanese": {
+      "att": 0.3502432967333333,
+      "influencers": [
+        "user_89"
+      ]
+    },
+    "Mary_Ellen_Katz": {
+      "att": 0.042121030000000004,
+      "influencers": [
+        "user_157"
+      ]
+    },
+    "user_197": {
+      "att": -0.025823979999999996,
+      "influencers": [
+        "user_191"
+      ]
+    },
+    "user_73": {
+      "att": 0.2951092298,
+      "influencers": [
+        "Movie-Kino"
+      ]
+    },
+    "FootballPizzaMan": {
+      "att": -0.005688601530000001,
+      "influencers": [
+        "user_54"
+      ]
+    },
+    "user_79": {
+      "att": 0.5588874182,
+      "influencers": [
+        "user_69"
+      ]
+    },
+    "user_68": {
+      "att": -0.24687703000000003,
+      "influencers": [
+        "user_167"
+      ]
+    },
+    "Acrzyguy": {
+      "att": 0.033068266,
+      "influencers": [
+        "librephili"
+      ]
+    },
+    "user_54": {
+      "att": -0.002507751641000002,
+      "influencers": [
+        "user_112"
+      ]
+    },
+    "whoamisri": {
+      "att": 0.029999999999999995,
+      "influencers": [
+        "SwingDingeling"
+      ]
+    },
+    "user_181": {
+      "att": 0.13438392,
+      "influencers": [
+        "VaguelyFamiliarVoice"
+      ]
+    },
+    "GetOutOfTheWhey": {
+      "att": 0.1894087,
+      "influencers": [
+        "user_198"
+      ]
+    },
+    "user_140": {
+      "att": -0.6384842033,
+      "influencers": [
+        "user_127"
+      ]
+    },
+    "Solopist112": {
+      "att": 0.425086096,
+      "influencers": [
+        "user_115"
+      ]
+    },
+    "user_83": {
+      "att": -0.605548307,
+      "influencers": [
+        "user_175"
+      ]
+    },
+    "user_124": {
+      "att": -0.25092325961,
+      "influencers": [
+        "user_131"
+      ]
+    },
+    "user_174": {
+      "att": -0.44826961400000004,
+      "influencers": [
+        "user_86"
+      ]
+    },
+    "user_198": {
+      "att": 0.13492493122380952,
+      "influencers": [
+        "user_72"
+      ]
+    },
+    "Hob-999": {
+      "att": 0.028,
+      "influencers": [
+        "YaleE360"
+      ]
+    },
+    "user_199": {
+      "att": -0.9118383389,
+      "influencers": [
+        "user_160"
+      ]
+    },
+    "user_163": {
+      "att": -0.0058546382999999985,
+      "influencers": [
+        "user_162"
+      ]
+    },
+    "user_180": {
+      "att": 0.23932668399999998,
+      "influencers": [
+        "Xenon1898"
+      ]
+    },
+    "user_61": {
+      "att": 0.03162822109999999,
+      "influencers": [
+        "user_152"
+      ]
+    },
+    "Codizier": {
+      "att": 0.23996153846153845,
+      "influencers": [
+        "wiredmagazine"
+      ]
+    },
+    "user_80": {
+      "att": 0.54748909,
+      "influencers": [
+        "user_115"
+      ]
+    },
+    "user_154": {
+      "att": 0.182060338,
+      "influencers": [
+        "ControlCAD"
+      ]
+    },
+    "user_82": {
+      "att": 0.11938694405714285,
+      "influencers": [
+        "user_186"
+      ]
+    },
+    "YaleE360": {
+      "att": 0.004312796249999999,
+      "influencers": [
+        "user_104"
+      ]
+    },
+    "user_102": {
+      "att": 0.596987359542,
+      "influencers": [
+        "user_143"
+      ]
+    },
+    "bloomberg": {
+      "att": 0.06333333333333334,
+      "influencers": [
+        "ActivityEmotional228"
+      ]
+    },
+    "user_168": {
+      "att": 0.28107233034,
+      "influencers": [
+        "user_188"
+      ]
+    },
+    "user_106": {
+      "att": 0.18610553999999999,
+      "influencers": [
+        "kowalsky9999"
+      ]
+    },
+    "ActivityEmotional228": {
+      "att": 0.04839573900000001,
+      "influencers": [
+        "user_74"
+      ]
+    },
+    "user_158": {
+      "att": -0.9065865830000001,
+      "influencers": [
+        "user_84"
+      ]
+    },
+    "user_58": {
+      "att": 0.013449126569999999,
+      "influencers": [
+        "user_99"
+      ]
+    },
+    "user_156": {
+      "att": 0.3946001421,
+      "influencers": [
+        "esporx"
+      ]
+    },
+    "user_111": {
+      "att": 0.23960383846153846,
+      "influencers": [
+        "wiredmagazine"
+      ]
+    },
+    "user_113": {
+      "att": 0.1454329,
+      "influencers": [
+        "VaguelyFamiliarVoice"
+      ]
+    },
+    "user_64": {
+      "att": 0.3549736358,
+      "influencers": [
+        "Movie-Kino"
+      ]
+    },
+    "user_84": {
+      "att": -0.9044749819000001,
+      "influencers": [
+        "user_158"
+      ]
+    },
+    "user_98": {
+      "att": -0.238350638,
+      "influencers": [
+        "user_51"
+      ]
+    },
+    "user_132": {
+      "att": 0.021666147999999993,
+      "influencers": [
+        "user_105"
+      ]
+    },
+    "user_52": {
+      "att": 0.8343272389999999,
+      "influencers": [
+        "user_161"
+      ]
+    },
+    "user_114": {
+      "att": -0.7549669358,
+      "influencers": [
+        "user_170"
+      ]
+    },
+    "user_171": {
+      "att": -0.057166250459,
+      "influencers": [
+        "FootballPizzaMan"
+      ]
+    },
+    "qunow": {
+      "att": 0.034005766,
+      "influencers": [
+        "librephili"
+      ]
+    },
+    "VaguelyFamiliarVoice": {
+      "att": 0.158178246,
+      "influencers": [
+        "user_93"
+      ]
+    },
+    "ImperiumRome": {
+      "att": 0.20333333333333334,
+      "influencers": [
+        "TheTelegraph"
+      ]
+    },
+    "user_142": {
+      "att": 0.013300798999999999,
+      "influencers": [
+        "Economy-Specialist38"
+      ]
+    },
+    "user_128": {
+      "att": 0.7695053567,
+      "influencers": [
+        "user_52"
+      ]
+    },
+    "SwingDingeling": {
+      "att": 0.08805853,
+      "influencers": [
+        "user_157"
+      ]
+    },
+    "user_173": {
+      "att": 0.94355646,
+      "influencers": [
+        "user_91"
+      ]
+    },
+    "user_69": {
+      "att": 0.53600435394,
+      "influencers": [
+        "user_97"
+      ]
+    },
+    "user_195": {
+      "att": 0.0091614395787,
+      "influencers": [
+        "user_138"
+      ]
+    },
+    "PlusCardiologist1799": {
+      "att": 0.10875556299999999,
+      "influencers": [
+        "TheExpressUS"
+      ]
+    },
+    "user_90": {
+      "att": 0.38520570074,
+      "influencers": [
+        "user_64"
+      ]
+    },
+    "user_101": {
+      "att": -0.942550456,
+      "influencers": [
+        "user_160"
+      ]
+    },
+    "user_169": {
+      "att": 0.06238979670000001,
+      "influencers": [
+        "user_162"
+      ]
+    },
+    "Complete-Captain2211": {
+      "att": -0.07058092449537408,
+      "influencers": [
+        "user_138"
+      ]
+    },
+    "user_192": {
+      "att": -0.0033650700000000047,
+      "influencers": [
+        "bloomberg"
+      ]
+    },
+    "user_187": {
+      "att": -0.9352489741000001,
+      "influencers": [
+        "user_117"
+      ]
+    },
+    "user_91": {
+      "att": 0.94667768,
+      "influencers": [
+        "user_144"
+      ]
+    },
+    "user_179": {
+      "att": 0.237917099102,
+      "influencers": [
+        "user_168"
+      ]
+    },
+    "user_81": {
+      "att": 0.89865209925,
+      "influencers": [
+        "user_145"
+      ]
+    },
+    "user_125": {
+      "att": 0.10736111179999999,
+      "influencers": [
+        "SwingDingeling"
+      ]
+    },
+    "user_75": {
+      "att": 0.153044264,
+      "influencers": [
+        "Xenon1898"
+      ]
+    },
+    "kowalsky9999": {
+      "att": 0.25,
+      "influencers": [
+        "TheTelegraph"
+      ]
+    },
+    "user_65": {
+      "att": 0.15022405,
+      "influencers": [
+        "user_113"
+      ]
+    },
+    "user_85": {
+      "att": 0.008806189367142857,
+      "influencers": [
+        "darrenjyc"
+      ]
+    },
+    "user_133": {
+      "att": 0.5383167719346,
+      "influencers": [
+        "user_63"
+      ]
+    },
+    "ControlCAD": {
+      "att": 0.2467980052,
+      "influencers": [
+        "user_180"
+      ]
+    },
+    "techreview": {
+      "att": -0.007130528999999998,
+      "influencers": [
+        "kazkh"
+      ]
+    },
+    "user_55": {
+      "att": 0.25905538666153843,
+      "influencers": [
+        "wiredmagazine"
+      ]
+    },
+    "user_143": {
+      "att": 0.6123421538626,
+      "influencers": [
+        "user_102"
+      ]
+    },
+    "user_123": {
+      "att": 0.8796565999999999,
+      "influencers": [
+        "user_144"
+      ]
+    },
+    "user_149": {
+      "att": 0.69863534748,
+      "influencers": [
+        "user_183"
+      ]
+    },
+    "user_136": {
+      "att": 0.14517638805714286,
+      "influencers": [
+        "Dry-Interaction-1246"
+      ]
+    },
+    "SE_to_NW": {
+      "att": 0.026417558999999997,
+      "influencers": [
+        "SwingDingeling"
+      ]
+    },
+    "user_155": {
+      "att": 0.49573216394,
+      "influencers": [
+        "user_97"
+      ]
+    },
+    "user_87": {
+      "att": 0.33149934302,
+      "influencers": [
+        "Shalmanese"
+      ]
+    },
+    "user_193": {
+      "att": -0.9254374307000001,
+      "influencers": [
+        "user_101"
+      ]
+    },
+    "user_77": {
+      "att": 0.54937224708,
+      "influencers": [
+        "user_96"
+      ]
+    },
+    "user_164": {
+      "att": 0.14268207666666666,
+      "influencers": [
+        "ubcstaffer123"
+      ]
+    },
+    "user_120": {
+      "att": 0.5907808278600001,
+      "influencers": [
+        "user_121"
+      ]
+    },
+    "user_150": {
+      "att": 0.153410376,
+      "influencers": [
+        "Ashes0fTheWake"
+      ]
+    },
+    "user_137": {
+      "att": 0.15859994,
+      "influencers": [
+        "user_147"
+      ]
+    },
+    "user_182": {
+      "att": -0.2279048404,
+      "influencers": [
+        "user_159"
+      ]
+    },
+    "user_144": {
+      "att": 0.8788539799999999,
+      "influencers": [
+        "user_123"
+      ]
+    },
+    "user_94": {
+      "att": 0.5599691312987801,
+      "influencers": [
+        "user_143"
+      ]
+    },
+    "user_121": {
+      "att": 0.535052806182,
+      "influencers": [
+        "user_69"
+      ]
+    },
+    "user_186": {
+      "att": 0.19443795279999998,
+      "influencers": [
+        "TheTelegraph"
+      ]
+    },
+    "TheTelegraph": {
+      "att": 0.23333138584,
+      "influencers": [
+        "user_186"
+      ]
+    }
+  },
+  "3": {
+    "zsreport": {
+      "att": 0.2957692307692308,
+      "influencers": [
+        "Solopist112"
+      ]
+    },
+    "user_132": {
+      "att": 0.015166303599999995,
+      "influencers": [
+        "pppppppppppppppppd"
+      ]
+    },
+    "user_119": {
+      "att": -0.28610159978599997,
+      "influencers": [
+        "user_124"
+      ]
+    },
+    "darrenjyc": {
+      "att": 0.0,
+      "influencers": [
+        "financialtimes"
+      ]
+    },
+    "SwingDingeling": {
+      "att": 0.004034737970999999,
+      "influencers": [
+        "user_58"
+      ]
+    },
+    "eortizospina": {
+      "att": 0.20660567653846154,
+      "influencers": [
+        "user_65"
+      ]
+    },
+    "Cybertronian1512": {
+      "att": 0.23076923076923078,
+      "influencers": [
+        "GreenStrength5876"
+      ]
+    },
+    "user_70": {
+      "att": -0.011404750000000002,
+      "influencers": [
+        "Vermontbuilder"
+      ]
+    },
+    "user_56": {
+      "att": 0.916759554,
+      "influencers": [
+        "user_123"
+      ]
+    },
+    "VaguelyFamiliarVoice": {
+      "att": 0.20745174073846157,
+      "influencers": [
+        "user_75"
+      ]
+    },
+    "user_149": {
+      "att": 0.67274738939478,
+      "influencers": [
+        "user_143"
+      ]
+    },
+    "user_76": {
+      "att": -0.937841982609,
+      "influencers": [
+        "user_117"
+      ]
+    },
+    "user_107": {
+      "att": 0.9507952354,
+      "influencers": [
+        "user_56"
+      ]
+    },
+    "Hob-999": {
+      "att": 0.20516833153846153,
+      "influencers": [
+        "user_113"
+      ]
+    },
+    "LelandTurbo0620": {
+      "att": 0.0063461538461538425,
+      "influencers": [
+        "UNITED24Media"
+      ]
+    },
+    "user_129": {
+      "att": 0.26914849342153846,
+      "influencers": [
+        "eortizospina"
+      ]
+    },
+    "user_68": {
+      "att": -0.23395742470000003,
+      "influencers": [
+        "user_172"
+      ]
+    },
+    "user_60": {
+      "att": 0.54555329975678,
+      "influencers": [
+        "user_143"
+      ]
+    },
+    "user_99": {
+      "att": 0.03920697502566667,
+      "influencers": [
+        "user_112"
+      ]
+    },
+    "Economy-Specialist38": {
+      "att": 0.016562814,
+      "influencers": [
+        "user_141"
+      ]
+    },
+    "user_144": {
+      "att": 0.8654959576999999,
+      "influencers": [
+        "user_52"
+      ]
+    },
+    "user_61": {
+      "att": 0.024043600923846147,
+      "influencers": [
+        "LelandTurbo0620"
+      ]
+    },
+    "user_133": {
+      "att": 0.5540559887122201,
+      "influencers": [
+        "user_120"
+      ]
+    },
+    "TheTelegraph": {
+      "att": 0.01805853,
+      "influencers": [
+        "user_157"
+      ]
+    },
+    "user_110": {
+      "att": 0.5435860712146,
+      "influencers": [
+        "user_63"
+      ]
+    },
+    "kazkh": {
+      "att": -0.01913461538461539,
+      "influencers": [
+        "Complete-Captain2211"
+      ]
+    },
+    "user_115": {
+      "att": 0.506524963389634,
+      "influencers": [
+        "user_94"
+      ]
+    },
+    "user_160": {
+      "att": -0.93506106323,
+      "influencers": [
+        "user_187"
+      ]
+    },
+    "YaleE360": {
+      "att": 0.0,
+      "influencers": [
+        "bloomberg"
+      ]
+    },
+    "user_90": {
+      "att": 0.39150660801799997,
+      "influencers": [
+        "user_92"
+      ]
+    },
+    "user_191": {
+      "att": 0.04119052868131868,
+      "influencers": [
+        "Ashes0fTheWake"
+      ]
+    },
+    "user_161": {
+      "att": 0.90090237,
+      "influencers": [
+        "user_91"
+      ]
+    },
+    "Solopist112": {
+      "att": 0.22500000000000006,
+      "influencers": [
+        "ImperiumRome"
+      ]
+    },
+    "Acrzyguy": {
+      "att": 0.01753294361538461,
+      "influencers": [
+        "TheTelegraph"
+      ]
+    },
+    "FootballPizzaMan": {
+      "att": 0.004968844199999999,
+      "influencers": [
+        "Economy-Specialist38"
+      ]
+    },
+    "user_89": {
+      "att": 0.3625596958,
+      "influencers": [
+        "user_57"
+      ]
+    },
+    "user_121": {
+      "att": 0.5413848382674,
+      "influencers": [
+        "user_97"
+      ]
+    },
+    "Lighthouse_seek": {
+      "att": 0.21615384615384614,
+      "influencers": [
+        "librephili"
+      ]
+    },
+    "user_146": {
+      "att": 0.6464541966399999,
+      "influencers": [
+        "user_67"
+      ]
+    },
+    "user_142": {
+      "att": 0.0318105593,
+      "influencers": [
+        "CheLeung"
+      ]
+    },
+    "Mary_Ellen_Katz": {
+      "att": 0.0014906532599999998,
+      "influencers": [
+        "FootballPizzaMan"
+      ]
+    },
+    "user_77": {
+      "att": 0.548807299956,
+      "influencers": [
+        "user_80"
+      ]
+    },
+    "user_116": {
+      "att": 0.22385635364,
+      "influencers": [
+        "librephili"
+      ]
+    },
+    "user_188": {
+      "att": 0.19935041246000001,
+      "influencers": [
+        "user_65"
+      ]
+    },
+    "user_65": {
+      "att": 0.123215365,
+      "influencers": [
+        "user_157"
+      ]
+    },
+    "user_178": {
+      "att": -0.2756750944,
+      "influencers": [
+        "user_159"
+      ]
+    },
+    "user_153": {
+      "att": 0.007298515853846152,
+      "influencers": [
+        "LelandTurbo0620"
+      ]
+    },
+    "Complete-Captain2211": {
+      "att": -0.05134399830000001,
+      "influencers": [
+        "user_162"
+      ]
+    },
+    "user_187": {
+      "att": -0.935192600839,
+      "influencers": [
+        "user_160"
+      ]
+    },
+    "user_103": {
+      "att": -0.9250017365400001,
+      "influencers": [
+        "user_84"
+      ]
+    },
+    "user_199": {
+      "att": -0.9210519740299999,
+      "influencers": [
+        "user_101"
+      ]
+    },
+    "user_69": {
+      "att": 0.5271605367748902,
+      "influencers": [
+        "user_115"
+      ]
+    },
+    "user_83": {
+      "att": -0.6184196437949,
+      "influencers": [
+        "user_53"
+      ]
+    },
+    "user_131": {
+      "att": -0.28758849709,
+      "influencers": [
+        "user_51"
+      ]
+    },
+    "user_179": {
+      "att": 0.23404196937140004,
+      "influencers": [
+        "Solopist112"
+      ]
+    },
+    "user_168": {
+      "att": 0.26390753733,
+      "influencers": [
+        "user_116"
+      ]
+    },
+    "user_85": {
+      "att": 0.005412007064699999,
+      "influencers": [
+        "user_54"
+      ]
+    },
+    "user_174": {
+      "att": -0.44493174380000006,
+      "influencers": [
+        "user_86"
+      ]
+    },
+    "user_94": {
+      "att": 0.554393843389366,
+      "influencers": [
+        "user_121"
+      ]
+    },
+    "user_193": {
+      "att": -0.928324520459,
+      "influencers": [
+        "user_160"
+      ]
+    },
+    "user_54": {
+      "att": -0.0095026201487,
+      "influencers": [
+        "user_197"
+      ]
+    },
+    "CheLeung": {
+      "att": 0.057917559,
+      "influencers": [
+        "TheTelegraph"
+      ]
+    },
+    "user_162": {
+      "att": 0.0026973373,
+      "influencers": [
+        "Vermontbuilder"
+      ]
+    },
+    "user_53": {
+      "att": -0.63944282722657,
+      "influencers": [
+        "user_83"
+      ]
+    },
+    "user_157": {
+      "att": 0.0881596828,
+      "influencers": [
+        "user_150"
+      ]
+    },
+    "user_109": {
+      "att": -0.67142119022643,
+      "influencers": [
+        "user_175"
+      ]
+    },
+    "user_141": {
+      "att": 0.04710810446153846,
+      "influencers": [
+        "ControlCAD"
+      ]
+    },
+    "user_50": {
+      "att": 0.0430341951,
+      "influencers": [
+        "user_135"
+      ]
+    },
+    "user_194": {
+      "att": -0.006796601489999998,
+      "influencers": [
+        "user_169"
+      ]
+    },
+    "PlusCardiologist1799": {
+      "att": 0.11355291641714287,
+      "influencers": [
+        "user_136"
+      ]
+    },
+    "user_120": {
+      "att": 0.577793306502,
+      "influencers": [
+        "user_80"
+      ]
+    },
+    "user_74": {
+      "att": -0.0083661876087,
+      "influencers": [
+        "SwingDingeling"
+      ]
+    },
+    "user_182": {
+      "att": -0.23163154828000002,
+      "influencers": [
+        "user_167"
+      ]
+    },
+    "user_78": {
+      "att": 0.46320740993246706,
+      "influencers": [
+        "user_69"
+      ]
+    },
+    "user_186": {
+      "att": 0.19765706642153844,
+      "influencers": [
+        "Hob-999"
+      ]
+    },
+    "user_66": {
+      "att": 0.5423241734166,
+      "influencers": [
+        "user_63"
+      ]
+    },
+    "user_180": {
+      "att": 0.2102069248,
+      "influencers": [
+        "user_93"
+      ]
+    },
+    "user_87": {
+      "att": 0.338541630854,
+      "influencers": [
+        "user_64"
+      ]
+    },
+    "user_143": {
+      "att": 0.5949576607206298,
+      "influencers": [
+        "user_94"
+      ]
+    },
+    "techreview": {
+      "att": 0.07734922488461539,
+      "influencers": [
+        "user_65"
+      ]
+    },
+    "user_147": {
+      "att": 0.1711524214,
+      "influencers": [
+        "user_154"
+      ]
+    },
+    "user_166": {
+      "att": -0.01257619300000001,
+      "influencers": [
+        "user_71"
+      ]
+    },
+    "Vermontbuilder": {
+      "att": 0.004968844199999999,
+      "influencers": [
+        "Economy-Specialist38"
+      ]
+    },
+    "user_184": {
+      "att": -0.006416701900000004,
+      "influencers": [
+        "user_166"
+      ]
+    },
+    "esporx": {
+      "att": -0.00285078604461,
+      "influencers": [
+        "user_54"
+      ]
+    },
+    "user_170": {
+      "att": -0.731533827267929,
+      "influencers": [
+        "user_109"
+      ]
+    },
+    "user_159": {
+      "att": -0.272780205483,
+      "influencers": [
+        "user_124"
+      ]
+    },
+    "user_64": {
+      "att": 0.3500440343162,
+      "influencers": [
+        "user_87"
+      ]
+    },
+    "user_155": {
+      "att": 0.5112747918380001,
+      "influencers": [
+        "user_96"
+      ]
+    },
+    "user_135": {
+      "att": 0.06484750219,
+      "influencers": [
+        "user_142"
+      ]
+    },
+    "GreenStrength5876": {
+      "att": 0.20516833153846153,
+      "influencers": [
+        "user_113"
+      ]
+    },
+    "user_84": {
+      "att": -0.9094480795390001,
+      "influencers": [
+        "user_199"
+      ]
+    },
+    "user_136": {
+      "att": 0.13970039471692308,
+      "influencers": [
+        "Xenon1898"
+      ]
+    },
+    "TheExpressUS": {
+      "att": 0.2021794871794872,
+      "influencers": [
+        "qunow"
+      ]
+    },
+    "user_154": {
+      "att": 0.19050431403999998,
+      "influencers": [
+        "user_180"
+      ]
+    },
+    "user_140": {
+      "att": -0.6663990904903787,
+      "influencers": [
+        "user_170"
+      ]
+    },
+    "user_51": {
+      "att": -0.24641149648400004,
+      "influencers": [
+        "user_182"
+      ]
+    },
+    "user_111": {
+      "att": 0.2564534561538462,
+      "influencers": [
+        "zsreport"
+      ]
+    },
+    "ControlCAD": {
+      "att": 0.022492021617199744,
+      "influencers": [
+        "user_195"
+      ]
+    },
+    "user_130": {
+      "att": 0.15436462948974358,
+      "influencers": [
+        "Dry-Interaction-1246"
+      ]
+    },
+    "user_190": {
+      "att": -0.6374933956881,
+      "influencers": [
+        "user_175"
+      ]
+    },
+    "user_125": {
+      "att": 0.11878264826,
+      "influencers": [
+        "user_113"
+      ]
+    },
+    "user_185": {
+      "att": -0.6430069129930001,
+      "influencers": [
+        "user_88"
+      ]
+    },
+    "user_80": {
+      "att": 0.54750464008,
+      "influencers": [
+        "user_96"
+      ]
+    },
+    "kowalsky9999": {
+      "att": 0.1925,
+      "influencers": [
+        "newsweek"
+      ]
+    },
+    "ImperiumRome": {
+      "att": 0.1838235727586667,
+      "influencers": [
+        "user_116"
+      ]
+    },
+    "user_122": {
+      "att": 0.91188162465,
+      "influencers": [
+        "user_145"
+      ]
+    },
+    "user_177": {
+      "att": 0.87638583481,
+      "influencers": [
+        "user_144"
+      ]
+    },
+    "wiredmagazine": {
+      "att": -0.00025685042130000056,
+      "influencers": [
+        "user_138"
+      ]
+    },
+    "user_196": {
+      "att": -0.45740715919999997,
+      "influencers": [
+        "user_176"
+      ]
+    },
+    "user_148": {
+      "att": 0.54227144236438,
+      "influencers": [
+        "user_110"
+      ]
+    },
+    "user_114": {
+      "att": -0.739407736043,
+      "influencers": [
+        "user_88"
+      ]
+    },
+    "user_73": {
+      "att": 0.27580723009076924,
+      "influencers": [
+        "ubcstaffer123"
+      ]
+    },
+    "user_88": {
+      "att": -0.684004903794971,
+      "influencers": [
+        "user_53"
+      ]
+    },
+    "user_139": {
+      "att": -0.30513574989299996,
+      "influencers": [
+        "user_124"
+      ]
+    },
+    "librephili": {
+      "att": 0.20923076923076925,
+      "influencers": [
+        "Movie-Kino"
+      ]
+    },
+    "user_118": {
+      "att": -0.6311346122579711,
+      "influencers": [
+        "user_53"
+      ]
+    },
+    "ubcstaffer123": {
+      "att": 0.23175105234988155,
+      "influencers": [
+        "user_179"
+      ]
+    },
+    "user_171": {
+      "att": -0.0643683953213,
+      "influencers": [
+        "user_134"
+      ]
+    },
+    "user_62": {
+      "att": 0.701606261692,
+      "influencers": [
+        "user_146"
+      ]
+    },
+    "ActivityEmotional228": {
+      "att": -0.0008552358133829999,
+      "influencers": [
+        "esporx"
+      ]
+    },
+    "user_127": {
+      "att": -0.652457054867971,
+      "influencers": [
+        "user_53"
+      ]
+    },
+    "user_137": {
+      "att": 0.1661670298276,
+      "influencers": [
+        "ImperiumRome"
+      ]
+    },
+    "user_164": {
+      "att": 0.11951541822380951,
+      "influencers": [
+        "user_72"
+      ]
+    },
+    "user_151": {
+      "att": 0.030052620400000007,
+      "influencers": [
+        "Economy-Specialist38"
+      ]
+    },
+    "user_123": {
+      "att": 0.90099819062,
+      "influencers": [
+        "user_107"
+      ]
+    },
+    "user_176": {
+      "att": -0.44824066255999995,
+      "influencers": [
+        "user_196"
+      ]
+    },
+    "user_183": {
+      "att": 0.608608390733666,
+      "influencers": [
+        "user_133"
+      ]
+    },
+    "user_106": {
+      "att": 0.19950464723076922,
+      "influencers": [
+        "Movie-Kino"
+      ]
+    },
+    "user_108": {
+      "att": 0.9181360672500001,
+      "influencers": [
+        "user_145"
+      ]
+    },
+    "user_112": {
+      "att": 0.025929055691000003,
+      "influencers": [
+        "user_162"
+      ]
+    },
+    "user_92": {
+      "att": 0.4344001829626,
+      "influencers": [
+        "user_189"
+      ]
+    },
+    "user_156": {
+      "att": 0.3936720818754,
+      "influencers": [
+        "user_90"
+      ]
+    },
+    "user_93": {
+      "att": 0.15092830042,
+      "influencers": [
+        "user_147"
+      ]
+    },
+    "Movie-Kino": {
+      "att": 0.22430769230769232,
+      "influencers": [
+        "librephili"
+      ]
+    },
+    "Ashes0fTheWake": {
+      "att": 0.06841373018307692,
+      "influencers": [
+        "Vermontbuilder"
+      ]
+    },
+    "financialtimes": {
+      "att": -0.001925010570000001,
+      "influencers": [
+        "user_184"
+      ]
+    },
+    "user_101": {
+      "att": -0.9317612941,
+      "influencers": [
+        "user_158"
+      ]
+    },
+    "user_167": {
+      "att": -0.22937254370000001,
+      "influencers": [
+        "user_172"
+      ]
+    },
+    "user_72": {
+      "att": 0.0380747233,
+      "influencers": [
+        "user_197"
+      ]
+    },
+    "user_95": {
+      "att": 0.29905274349230776,
+      "influencers": [
+        "zsreport"
+      ]
+    },
+    "bloomberg": {
+      "att": 0.009999999999999997,
+      "influencers": [
+        "GetOutOfTheWhey"
+      ]
+    },
+    "user_138": {
+      "att": -0.0083465116497,
+      "influencers": [
+        "user_197"
+      ]
+    },
+    "user_52": {
+      "att": 0.857593554695,
+      "influencers": [
+        "user_122"
+      ]
+    },
+    "user_165": {
+      "att": 0.568442963683067,
+      "influencers": [
+        "user_69"
+      ]
+    },
+    "user_158": {
+      "att": -0.9159632028827001,
+      "influencers": [
+        "user_76"
+      ]
+    },
+    "qunow": {
+      "att": 0.1881847275025641,
+      "influencers": [
+        "user_106"
+      ]
+    },
+    "GetOutOfTheWhey": {
+      "att": 0.022323812333333325,
+      "influencers": [
+        "user_192"
+      ]
+    },
+    "user_192": {
+      "att": 0.006660237119999999,
+      "influencers": [
+        "user_151"
+      ]
+    },
+    "user_152": {
+      "att": -0.020616794900000006,
+      "influencers": [
+        "Economy-Specialist38"
+      ]
+    },
+    "UNITED24Media": {
+      "att": 0.014730637181302297,
+      "influencers": [
+        "wiredmagazine"
+      ]
+    },
+    "user_91": {
+      "att": 0.94791294662,
+      "influencers": [
+        "user_107"
+      ]
+    },
+    "user_79": {
+      "att": 0.55806906668,
+      "influencers": [
+        "user_97"
+      ]
+    },
+    "user_105": {
+      "att": -0.018980848880590005,
+      "influencers": [
+        "user_85"
+      ]
+    },
+    "user_169": {
+      "att": 0.06687762515538462,
+      "influencers": [
+        "techreview"
+      ]
+    },
+    "user_197": {
+      "att": -0.010863705722846152,
+      "influencers": [
+        "user_61"
+      ]
+    },
+    "user_75": {
+      "att": 0.1744232924923077,
+      "influencers": [
+        "Movie-Kino"
+      ]
+    },
+    "user_172": {
+      "att": -0.228944724427,
+      "influencers": [
+        "user_131"
+      ]
+    },
+    "user_98": {
+      "att": -0.242122424483,
+      "influencers": [
+        "user_124"
+      ]
+    },
+    "user_82": {
+      "att": 0.103025111497,
+      "influencers": [
+        "user_135"
+      ]
+    },
+    "Codizier": {
+      "att": 0.020063287546615384,
+      "influencers": [
+        "user_169"
+      ]
+    },
+    "user_86": {
+      "att": -0.440472564768,
+      "influencers": [
+        "user_176"
+      ]
+    },
+    "iwanttodrink": {
+      "att": 0.07431279625000001,
+      "influencers": [
+        "user_104"
+      ]
+    },
+    "user_175": {
+      "att": -0.64317590070643,
+      "influencers": [
+        "user_190"
+      ]
+    },
+    "user_58": {
+      "att": 0.018430174719000002,
+      "influencers": [
+        "user_151"
+      ]
+    },
+    "user_113": {
+      "att": 0.1541300177476923,
+      "influencers": [
+        "user_75"
+      ]
+    },
+    "user_55": {
+      "att": 0.2488387706630769,
+      "influencers": [
+        "Solopist112"
+      ]
+    },
+    "user_195": {
+      "att": 0.004487997135089999,
+      "influencers": [
+        "user_184"
+      ]
+    },
+    "user_124": {
+      "att": -0.245833509137,
+      "influencers": [
+        "user_68"
+      ]
+    },
+    "user_117": {
+      "att": -0.9291419237648101,
+      "influencers": [
+        "user_158"
+      ]
+    },
+    "user_104": {
+      "att": 0.04006319125,
+      "influencers": [
+        "whoamisri"
+      ]
+    },
+    "user_126": {
+      "att": -0.9375311851594431,
+      "influencers": [
+        "user_117"
+      ]
+    },
+    "user_97": {
+      "att": 0.5412691948768902,
+      "influencers": [
+        "user_115"
+      ]
+    },
+    "SE_to_NW": {
+      "att": 0.07474351435603174,
+      "influencers": [
+        "user_164"
+      ]
+    },
+    "user_163": {
+      "att": 0.0004516442699999991,
+      "influencers": [
+        "user_132"
+      ]
+    },
+    "user_63": {
+      "att": 0.5587572615323799,
+      "influencers": [
+        "user_66"
+      ]
+    },
+    "Novel_Sun3870": {
+      "att": -0.00250395349491,
+      "influencers": [
+        "user_138"
+      ]
+    },
+    "user_150": {
+      "att": 0.17759985401142,
+      "influencers": [
+        "user_179"
+      ]
+    },
+    "user_71": {
+      "att": 0.02189116371739,
+      "influencers": [
+        "user_74"
+      ]
+    },
+    "user_67": {
+      "att": 0.5764696950390671,
+      "influencers": [
+        "user_97"
+      ]
+    },
+    "user_57": {
+      "att": 0.27869359203076927,
+      "influencers": [
+        "Cybertronian1512"
+      ]
+    },
+    "user_189": {
+      "att": 0.528613474295589,
+      "influencers": [
+        "user_143"
+      ]
+    },
+    "user_102": {
+      "att": 0.5842093046962098,
+      "influencers": [
+        "user_94"
+      ]
+    },
+    "Xenon1898": {
+      "att": 0.11205092131153847,
+      "influencers": [
+        "techreview"
+      ]
+    },
+    "user_181": {
+      "att": 0.15561924346153846,
+      "influencers": [
+        "Hob-999"
+      ]
+    },
+    "user_134": {
+      "att": -0.0512923275843,
+      "influencers": [
+        "user_58"
+      ]
+    },
+    "user_100": {
+      "att": 0.10217728130680952,
+      "influencers": [
+        "SE_to_NW"
+      ]
+    },
+    "user_96": {
+      "att": 0.5456940980002201,
+      "influencers": [
+        "user_121"
+      ]
+    },
+    "pppppppppppppppppd": {
+      "att": 0.00013549328099999973,
+      "influencers": [
+        "user_163"
+      ]
+    },
+    "user_145": {
+      "att": 0.924850785645,
+      "influencers": [
+        "user_122"
+      ]
+    },
+    "Shalmanese": {
+      "att": 0.182305123738,
+      "influencers": [
+        "user_188"
+      ]
+    },
+    "newsweek": {
+      "att": 0.15249999999999997,
+      "influencers": [
+        "whoamisri"
+      ]
+    },
+    "user_59": {
+      "att": 0.907348619775,
+      "influencers": [
+        "user_81"
+      ]
+    },
+    "whoamisri": {
+      "att": 0.10065318439204286,
+      "influencers": [
+        "user_100"
+      ]
+    },
+    "user_198": {
+      "att": 0.1636782210874359,
+      "influencers": [
+        "Cybertronian1512"
+      ]
+    },
+    "user_173": {
+      "att": 0.930788979186,
+      "influencers": [
+        "user_123"
+      ]
+    },
+    "Dry-Interaction-1246": {
+      "att": 0.08739743801717949,
+      "influencers": [
+        "user_50"
+      ]
+    },
+    "user_81": {
+      "att": 0.9065117051685,
+      "influencers": [
+        "user_145"
+      ]
+    },
+    "user_128": {
+      "att": 0.740477966508434,
+      "influencers": [
+        "user_149"
+      ]
+    },
+    "burtzev": {
+      "att": 0.036797836025082305,
+      "influencers": [
+        "user_74"
+      ]
+    }
+  }
+}

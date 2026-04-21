@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文化动态观测与态势推演系统</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        hnu: { red: '#8B0012', light: '#BC2F3C', stone: '#57534e', gold: '#D97706' }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root { --primary-text: #292524; --secondary-text: #57534e; --card-bg: rgba(255, 255, 255, 0.95); }
+        body { font-family: 'DM Sans', sans-serif; background-color: #f5f5f4; color: var(--primary-text); overflow-x: hidden; margin: 0; height: 100vh; }
+
+        .aurora-bg { position: fixed; top: -50%; left: -50%; width: 200vw; height: 200vh;
+            background: radial-gradient(circle at center, rgba(254, 226, 226, 0.7) 0%, rgba(254, 243, 199, 0.6) 30%, rgba(231, 229, 228, 0.6) 60%, rgba(250, 250, 249, 0) 80%);
+            z-index: -3; animation: colorShift 30s infinite linear; filter: blur(60px); pointer-events: none; }
+        @keyframes colorShift { 0% { transform: rotate(0deg) scale(1); } 50% { transform: rotate(180deg) scale(1.05); } 100% { transform: rotate(360deg) scale(1); } }
+        .noise-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E"); z-index: -1; pointer-events: none; }
+
+        .glass-card { background: var(--card-bg); backdrop-filter: blur(24px) saturate(180%); -webkit-backdrop-filter: blur(24px) saturate(180%); border: 1px solid rgba(255, 255, 255, 0.6); box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.08); color: var(--primary-text); }
+        .input-glow { background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.1); color: #333; transition: all 0.3s ease; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        .input-glow:hover, .input-glow:focus { border-color: #8B0012; background: #fff; box-shadow: 0 4px 12px rgba(139, 0, 18, 0.1); outline: none; }
+        .font-tech { font-family: 'DM Sans', sans-serif; }
+        .font-art { font-family: 'Playfair Display', serif; }
+
+        .nav-item { position: relative; transition: all 0.3s ease; color: #78716c; font-weight: 500; cursor: pointer; }
+        .nav-item::after { content: ''; position: absolute; bottom: -4px; left: 50%; width: 0; height: 3px; background: #8B0012; transition: all 0.3s ease; transform: translateX(-50%); border-radius: 2px; }
+        .nav-item.active { color: #292524; font-weight: 700; }
+        .nav-item.active::after { width: 80%; }
+        .btn-neon { background: #292524; color: white; position: relative; overflow: hidden; transition: all 0.3s ease; border-radius: 50px; }
+        .btn-neon:hover { background: linear-gradient(90deg, #8B0012, #B91C1C); transform: translateY(-2px); box-shadow: 0 10px 25px rgba(139, 0, 18, 0.3); }
+
+        .fade-in-up { animation: fadeInUp 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards; opacity: 0; transform: translateY(15px); }
+        @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+        .hidden { display: none !important; }
+
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background-color: #d1d5db; border-radius: 20px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background-color: #9ca3af; }
+
+        .feed-card { transition: all 0.3s ease; }
+        .feed-card:hover { border-color: #d1d5db; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05); }
+
+        .typing-cursor::after { content: '|'; animation: blink 1s infinite; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col items-center">
+
+    <div id="aurora-bg" class="aurora-bg"></div>
+    <div class="noise-overlay"></div>
+
+    <nav class="fixed top-6 z-50 glass-card rounded-full px-8 py-4 flex items-center gap-10 border border-white/40 shadow-sm">
+        <div class="flex items-center gap-5 pr-8 border-r border-stone-200">
+            <a href="#" class="flex flex-col group hover:opacity-75 transition-opacity">
+                <span class="font-sans text-lg font-bold tracking-tight leading-tight group-hover:text-hnu-red transition-colors">岳麓山文化数智传播实验室</span>
+                <span class="text-[10px] font-bold text-stone-400 uppercase tracking-widest leading-none mt-0.5">Hunan University</span>
+            </a>
+            <div class="h-8 w-px bg-stone-300"></div>
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-shapes text-hnu-red text-xl"></i>
+                <span class="font-art text-2xl font-bold tracking-tight text-gray-900">Culture<span class="text-hnu-red italic">Flow</span></span>
+            </div>
+        </div>
+
+        <div class="flex gap-8">
+            <button onclick="switchTab('setup')" id="nav-setup" class="nav-item active flex items-center gap-2 py-1">
+                <i class="fa-solid fa-sliders text-sm"></i> <span class="font-tech tracking-wide text-sm">设定 (Setup)</span>
+            </button>
+            <button onclick="switchTab('monitor')" id="nav-monitor" class="nav-item flex items-center gap-2 py-1">
+                <i class="fa-solid fa-globe text-sm"></i> <span class="font-tech tracking-wide text-sm">传播 (Spread)</span>
+            </button>
+            <button onclick="switchTab('network')" id="nav-network" class="nav-item flex items-center gap-2 py-1">
+                <i class="fa-solid fa-project-diagram text-sm"></i> <span class="font-tech tracking-wide text-sm">网络 (Network)</span>
+            </button>
+        </div>
+    </nav>
+
+    <main id="main-container" class="w-full max-w-7xl mt-36 px-6 pb-12 flex-grow relative z-10 transition-all duration-500 ease-out">
+
+        <section id="view-setup" class="fade-in-up w-full max-w-5xl mx-auto">
+            <div class="text-center mb-12">
+                <h1 class="font-art text-5xl font-bold mb-4 text-gray-900 tracking-tight leading-tight">文化动态观测与态势推演系统</h1>
+                <p class="text-stone-500 font-tech tracking-wide text-xs font-semibold">System Parameter Setup</p>
+            </div>
+            <div class="glass-card p-12 rounded-3xl relative overflow-hidden">
+                <form id="sim-form" onsubmit="handleStart(event)" class="space-y-10 relative z-10">
+                    <div class="group">
+                        <label class="block text-stone-500 font-bold text-xs tracking-widest mb-3 uppercase group-hover:text-hnu-red transition-colors"><i class="fa-solid fa-bolt mr-2"></i>文化事件</label>
+                        <textarea id="input-event" name="event" rows="3" required class="input-glow w-full rounded-2xl px-6 py-5 text-xl text-gray-800 placeholder-stone-400 resize-none" placeholder="请输入要推演的文化事件..."></textarea>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="group">
+                            <label class="block text-stone-400 font-bold text-xs tracking-widest mb-3 uppercase group-hover:text-hnu-red transition-colors"><i class="fa-solid fa-rotate mr-2"></i>迭代次数 (Epochs)</label>
+                            <input type="number" id="input-epochs" value="30" min="1" class="input-glow w-full h-14 rounded-xl px-4 text-xl text-center font-medium">
+                        </div>
+                        <div class="group">
+                            <label class="block text-stone-400 font-bold text-xs tracking-widest mb-3 uppercase group-hover:text-hnu-red transition-colors"><i class="fa-solid fa-stopwatch mr-2"></i>单轮时长 (s)</label>
+                            <input type="number" id="input-interval" value="21600" min="1" class="input-glow w-full h-14 rounded-xl px-4 text-xl text-center font-medium">
+                        </div>
+                        <div class="group">
+                            <label class="block text-stone-400 font-bold text-xs tracking-widest mb-3 uppercase group-hover:text-hnu-red transition-colors"><i class="fa-regular fa-clock mr-2"></i>开始时间</label>
+                            <input type="datetime-local" id="startTime" class="input-glow w-full h-14 rounded-xl px-4 text-base text-center flex items-center justify-center font-medium">
+                        </div>
+                    </div>
+                    <div class="pt-4 flex justify-center">
+                        <button type="submit" class="btn-neon px-16 py-5 rounded-full font-bold text-lg tracking-wider shadow-lg flex items-center gap-3">
+                            <span>开始推演</span><i class="fa-solid fa-rocket"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="view-monitor" class="hidden w-full max-w-4xl mx-auto">
+            <div class="flex justify-between items-end mb-8 px-2">
+                <div>
+                    <div class="flex items-center gap-4">
+                        <h2 class="font-art text-4xl text-gray-900">动态传播轴</h2>
+                        <div class="flex items-center gap-2 px-4 py-1.5 bg-white/80 rounded-full border border-red-100 shadow-sm backdrop-blur-md">
+                             <i class="fa-solid fa-circle-notch fa-spin text-hnu-red text-lg"></i>
+                             <span class="text-xs font-bold text-hnu-red uppercase tracking-wider">Live Feed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feed-container" class="flex flex-col gap-6"></div>
+        </section>
+
+        <section id="view-network" class="hidden w-full h-[80vh]">
+            <div class="flex h-full gap-5 w-full justify-center">
+
+                <div class="flex-1 h-full glass-card rounded-3xl overflow-hidden shadow-sm border border-white relative">
+                    <div id="network-placeholder" class="absolute inset-0 flex items-center justify-center bg-stone-50/80 backdrop-blur-sm p-8 z-10">
+                        <div class="max-w-lg text-center">
+                            <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-white shadow-sm border border-stone-200 flex items-center justify-center text-hnu-red text-2xl">
+                                <i class="fa-solid fa-diagram-project"></i>
+                            </div>
+                            <h3 class="font-art text-3xl text-gray-900 mb-3">网络图暂未生成</h3>
+                            <p class="text-stone-500 text-sm leading-relaxed">当前轮次可能尚未完成，因此 <span class="font-mono text-stone-700">simulation_dashboard_culture_v4_dynamic.html</span> 还没有生成。请稍后刷新到本页，系统检测到文件后会自动显示网络图。</p>
+                        </div>
+                    </div>
+                    <iframe id="network-iframe" class="w-full h-full border-0 hidden" title="Dynamic Network Graph"></iframe>
+                </div>
+
+                <div class="w-[380px] flex-shrink-0 h-full glass-card bg-white/80 rounded-3xl flex flex-col shadow-sm border border-white overflow-hidden relative">
+                    <div class="p-5 border-b border-stone-200 bg-white/60 backdrop-blur-md z-10 flex items-center gap-4 shadow-sm">
+                        <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-red-100 to-amber-50 flex items-center justify-center shadow-inner border border-white relative">
+                            <div class="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full border-2 border-white animate-pulse"></div>
+                            <i class="fa-solid fa-brain text-hnu-red text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-art text-xl font-bold text-gray-900 leading-tight">Insight AI</h3>
+                            <div class="text-[10px] text-stone-500 uppercase tracking-widest font-bold mt-0.5">Behavioral Analyst</div>
+                        </div>
+                    </div>
+
+                    <div id="chat-history" class="flex-1 overflow-y-auto custom-scrollbar p-5 space-y-5 bg-stone-50/50 flex flex-col pb-4">
+                        <div class="flex gap-3 fade-in-up">
+                            <div class="w-8 h-8 rounded-full bg-white flex-shrink-0 flex items-center justify-center border border-stone-200 shadow-sm text-hnu-red"><i class="fa-solid fa-robot text-xs"></i></div>
+                            <div class="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-stone-100 text-sm text-stone-700 leading-relaxed">
+                                您好！我是 CultureFlow 的态势洞察助手。您可以参考左侧的网络图，向我提问关于群体态度分布、核心节点行为分析等任何问题。
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-white/90 border-t border-stone-200 backdrop-blur-md z-10">
+                        <div class="relative flex items-end shadow-sm rounded-2xl border border-stone-200 bg-white transition-all focus-within:border-hnu-red focus-within:shadow-md">
+                            <textarea id="chat-input" rows="1"
+                                class="w-full bg-transparent border-none rounded-2xl pl-4 pr-12 py-3.5 text-sm text-gray-800 placeholder-stone-400 resize-none overflow-y-auto custom-scrollbar max-h-32 focus:outline-none focus:ring-0"
+                                placeholder="输入您想洞察的问题..."
+                                onkeydown="handleChatKeydown(event)"></textarea>
+                            <button onclick="sendChatMessage()" class="absolute right-2 bottom-2 w-9 h-9 rounded-xl bg-hnu-red text-white flex items-center justify-center hover:bg-hnu-light transition-all hover:-translate-y-0.5 mb-0.5 shadow-sm">
+                                <i class="fa-solid fa-paper-plane text-sm"></i>
+                            </button>
+                        </div>
+                        <div class="text-[10px] text-center text-stone-400 mt-2">按 <span class="font-mono bg-stone-100 px-1 rounded text-stone-500 border border-stone-200">Enter</span> 发送，<span class="font-mono bg-stone-100 px-1 rounded text-stone-500 border border-stone-200">Shift + Enter</span> 换行</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        // ================= 数据流全局变量 =================
+        let fetchTimer = null;
+        let pendingPosts = [];
+        let processedPosts = new Set();
+        let networkGraphCheckTimer = null;
+        const NETWORK_GRAPH_PATH = 'simulation_dashboard_culture_v4_dynamic.html';
+
+        const now = new Date();
+        now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+        document.getElementById('startTime').value = now.toISOString().slice(0, 16);
+
+        // 背景特效
+        const auroraBg = document.getElementById('aurora-bg');
+        document.body.addEventListener('mousemove', (e) => {
+            const x = (e.clientX / window.innerWidth) * 100;
+            const y = (e.clientY / window.innerHeight) * 100;
+            auroraBg.style.background = `radial-gradient(circle at ${x}% ${y}%, rgba(254, 226, 226, 0.7) 0%, rgba(254, 243, 199, 0.6) 30%, rgba(231, 229, 228, 0.6) 60%, rgba(250, 250, 249, 0) 80%)`;
+        });
+
+        // ================= 导航切换与【核心容器扩宽逻辑】 =================
+        function switchTab(tabId) {
+            document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+            document.getElementById(`nav-${tabId}`).classList.add('active');
+
+            const mainContainer = document.getElementById('main-container');
+
+            // 如果点击的是网络图，就把主容器从 max-w-7xl (1280px) 扩大到 max-w-[96vw] (全屏的96%)
+            if (tabId === 'network') {
+                mainContainer.classList.remove('max-w-7xl');
+                mainContainer.classList.add('max-w-[96vw]');
+            } else {
+                // 如果是其他页面，恢复原来的舒适阅读宽度
+                mainContainer.classList.remove('max-w-[96vw]');
+                mainContainer.classList.add('max-w-7xl');
+            }
+
+            ['setup', 'monitor', 'network'].forEach(v => {
+                const el = document.getElementById(`view-${v}`);
+                if (v === tabId) {
+                    el.classList.remove('hidden');
+                    el.classList.remove('fade-in-up');
+                    void el.offsetWidth;
+                    el.classList.add('fade-in-up');
+
+                    if (tabId === 'network') {
+                        refreshNetworkGraph();
+                    }
+                } else {
+                    el.classList.add('hidden');
+                }
+            });
+
+            if (tabId === 'network') {
+                startNetworkGraphPolling();
+            } else {
+                stopNetworkGraphPolling();
+            }
+        }
+
+        // ================= 表单提交与轮询启动 =================
+        async function handleStart(e) {
+            e.preventDefault();
+            const btn = e.target.querySelector('button');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = `<i class="fa-solid fa-circle-notch fa-spin"></i> 连接中...`;
+            btn.classList.add('opacity-80', 'cursor-not-allowed');
+
+            const eventVal = document.getElementById('input-event').value;
+            const epochsVal = document.getElementById('input-epochs').value;
+            const intervalVal = document.getElementById('input-interval').value;
+            let startTimeVal = document.getElementById('startTime').value;
+            if (startTimeVal) startTimeVal = startTimeVal.replace('T', ' ') + ':00';
+
+            try {
+                const response = await fetch('/start', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ trigger_news: eventVal, max_turns: epochsVal, time_delta: intervalVal, current_time: startTimeVal })
+                });
+                const result = await response.json();
+                if (result.status === 'success') {
+                    switchTab('monitor');
+                    startPolling();
+                } else { alert("错误: " + result.message); }
+            } catch (error) {
+                alert("连接失败: " + error.message);
+            } finally {
+                btn.innerHTML = originalText;
+                btn.classList.remove('opacity-80', 'cursor-not-allowed');
+            }
+        }
+
+        function startPolling() {
+            fetchAndQueueData();
+            if (fetchTimer) clearInterval(fetchTimer);
+            fetchTimer = setInterval(fetchAndQueueData, 3000);
+            renderNextPost();
+        }
+
+        async function refreshNetworkGraph() {
+            const iframe = document.getElementById('network-iframe');
+            const placeholder = document.getElementById('network-placeholder');
+
+            try {
+                // 使用 HEAD 请求，只获取文件状态而不下载整个文件，节省带宽
+                const response = await fetch(`${NETWORK_GRAPH_PATH}?t=${Date.now()}`, { method: 'HEAD', cache: 'no-store' });
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+                // 获取文件的最后修改时间和大小，作为文件的“数字指纹”
+                const lastModified = response.headers.get('Last-Modified');
+                const contentLength = response.headers.get('Content-Length');
+                const fileSignature = lastModified + "_" + contentLength;
+
+                // 核心逻辑：如果是第一次加载，或者文件被 Python 更新了（指纹变了），才触发 iframe 刷新
+                if (!iframe.dataset.loaded || iframe.dataset.fileSignature !== fileSignature) {
+                    iframe.src = `${NETWORK_GRAPH_PATH}?t=${Date.now()}`;
+                    iframe.dataset.loaded = 'true';
+                    iframe.dataset.fileSignature = fileSignature; // 记住这次的指纹
+                    console.log("🔄 检测到网络图文件更新，已自动刷新 iframe");
+                }
+                
+                iframe.classList.remove('hidden');
+                placeholder.classList.add('hidden');
+            } catch (error) {
+                iframe.classList.add('hidden');
+                iframe.removeAttribute('src');
+                delete iframe.dataset.loaded;
+                placeholder.classList.remove('hidden');
+            }
+        }
+
+        function startNetworkGraphPolling() {
+            refreshNetworkGraph();
+            if (networkGraphCheckTimer) clearInterval(networkGraphCheckTimer);
+            networkGraphCheckTimer = setInterval(refreshNetworkGraph, 5000);
+        }
+
+        function stopNetworkGraphPolling() {
+            if (networkGraphCheckTimer) {
+                clearInterval(networkGraphCheckTimer);
+                networkGraphCheckTimer = null;
+            }
+        }
+
+        async function fetchAndQueueData() {
+            try {
+                const res = await fetch(`/output/temp/test.json`);
+                if (!res.ok) return;
+                const data = await res.json();
+                window.globalFeedData = data;
+                const turns = Object.keys(data).sort((a, b) => parseInt(a.split('_')[1]) - parseInt(b.split('_')[1]));
+                let latestRound = 0;
+
+                for (let turnKey of turns) {
+                    const roundIndex = parseInt(turnKey.split('_')[1]);
+                    const displayRound = roundIndex + 1;
+                    latestRound = Math.max(latestRound, displayRound);
+
+                    const agents = data[turnKey].agents || {};
+                    for (let agentId in agents) {
+                        const agentData = agents[agentId];
+                        const uniqueKey = `${turnKey}_${agentId}`;
+
+                        if (!processedPosts.has(uniqueKey)) {
+                            processedPosts.add(uniqueKey);
+                            pendingPosts.push({ uniqueKey, agentId, displayRound, agentData });
+                        }
+                    }
+                }
+                const currentEpochEl = document.getElementById('current-epoch');
+                if (currentEpochEl) currentEpochEl.innerText = latestRound;
+            } catch (e) { /* waiting for json */ }
+        }
+
+        function renderNextPost() {
+            if (pendingPosts.length > 0) {
+                const post = pendingPosts.shift();
+                const cardHtml = createFeedCard(post.uniqueKey, post.agentId, post.displayRound, post.agentData);
+                const feedContainer = document.getElementById('feed-container');
+                if (feedContainer) feedContainer.insertAdjacentHTML('afterbegin', cardHtml);
+
+                const randomDelay = Math.floor(Math.random() * (15000 - 5000 + 1)) + 5000;
+                //const randomDelay = Math.floor(Math.random() * (800 - 200 + 1)) + 200;
+                setTimeout(renderNextPost, randomDelay);
+            } else {
+                setTimeout(renderNextPost, 2000);
+            }
+        }
+
+        function getFirstSentence(text) {
+            if (!text || text === "Silence") return "Silence";
+            const match = text.match(/^[^.!?。！？\n]+[.!?。！？\n]?/);
+            return match ? match[0].trim() : text.trim();
+        }
+
+        function toggleCard(id) {
+            const collapsed = document.getElementById(`${id}-collapsed`);
+            const expanded = document.getElementById(`${id}-expanded`);
+            if (collapsed.classList.contains('hidden')) {
+                collapsed.classList.remove('hidden'); expanded.classList.add('hidden');
+            } else {
+                collapsed.classList.add('hidden'); expanded.classList.remove('hidden');
+            }
+        }
+
+        function getStringHue(str) {
+            let hash = 0;
+            for (let i = 0; i < str.length; i++) hash = str.charCodeAt(i) + ((hash << 5) - hash);
+            return Math.abs(hash) % 360;
+        }
+
+       // 重写后的卡片渲染函数 (适配 attitude 数值格式)
+function createFeedCard(uniqueKey, agentId, round, data) {
+    const rawContent = data.content || "Silence";
+    const action = data.action || 'do_nothing';
+    const isSilence = rawContent === "Silence" || action === 'do_nothing';
+
+    // 1. 态度值解析
+    let attVal = 0;
+    if (data.attitude !== undefined && data.attitude !== null) {
+        attVal = parseFloat(data.attitude);
+    }
+    if (isSilence || isNaN(attVal)) attVal = 0;
+
+    let badgeClass = "bg-gray-400";
+    let badgeLabel = "Neutral";
+    if (attVal > 0.01) { badgeClass = "bg-[#16A34A]"; badgeLabel = "Positive"; }
+    else if (attVal < -0.01) { badgeClass = "bg-[#DC2626]"; badgeLabel = "Negative"; }
+
+    const badgeHtml = `<span class="px-3 py-1.5 rounded-full text-[11px] font-bold text-white ${badgeClass} inline-flex items-center gap-2 shadow-sm"><span class="tracking-wide">${badgeLabel}</span> <span class="opacity-90 font-mono">${attVal.toFixed(2)}</span></span>`;
+
+    // 2. 行为配置映射 (【修改】：恢复白底，改为不同颜色的发光边框)
+    const ACTION_CONFIG = {
+        post: {
+            label: "Published", colorClass: "text-[#7C3AED]",
+            glowStyle: "bg-white border-[#C4B5FD] shadow-[0_0_15px_rgba(139,92,246,0.15)]", // 紫色发光边框
+            svg: `<svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M14 19H5V5H14V11H19V13H21V10.5C21 10.21 20.89 9.96 20.71 9.76L14.24 3.29C14.04 3.11 13.79 3 13.5 3H5C3.89 3 3 3.9 3 5V19C3 20.11 3.9 21 5 21H14V19M13 5L18 10H13V5M20 18V15H18V18H15V20H18V23H20V20H23V18H20Z"/></svg>`
+        },
+        retweet: {
+            label: "Retweeted", colorClass: "text-[#CA8A04]",
+            glowStyle: "bg-white border-[#FDE047] shadow-[0_0_15px_rgba(234,179,8,0.15)]", // 黄色发光边框
+            svg: `<svg viewBox="0 0 24 24" fill="currentColor" class="w-[18px] h-[18px]"><path d="M17,17H7V14L3,18L7,22V19H19V13H17M7,7H17V10L21,6L17,2V5H5V11H7V7Z"/></svg>`
+        },
+        reply: {
+            label: "Replied to", colorClass: "text-[#2563EB]",
+            glowStyle: "bg-white border-[#93C5FD] shadow-[0_0_15px_rgba(59,130,246,0.15)]", // 蓝色发光边框
+            svg: `<svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M12 2C6.48 2 2 6.48 2 12C2 13.9 2.5 15.68 3.36 17.2L2.2 21L6.15 19.92C7.88 20.61 9.87 21 12 21C17.52 21 22 16.52 22 12C22 6.48 17.52 2 12 2M8 11C7.45 11 7 11.45 7 12C7 12.55 7.45 13 8 13C8.55 13 9 12.55 9 12C9 11.45 8.55 11 8 11M12 11C11.45 11 11 11.45 11 12C11 12.55 11.45 13 12 13C12.55 13 13 12.55 13 12C13 11.45 12.55 11 12 11M16 11C15.45 11 15 11.45 15 12C15 12.55 15.45 13 16 13C16.55 13 17 12.55 17 12C17 11.45 16.55 11 16 11Z"/></svg>`
+        },
+        like: {
+            label: "Liked", colorClass: "text-[#EA580C]",
+            glowStyle: "bg-white border-[#FDBA74] shadow-[0_0_15px_rgba(249,115,22,0.15)]", // 橙色发光边框
+            svg: `<svg viewBox="0 0 24 24" fill="currentColor" class="w-[18px] h-[18px]"><path d="M5,9V21H1V9H5M9,21A2,2 0 0,1 7,19V9C7,8.45 7.22,7.95 7.59,7.59L14.17,1L15.23,2.06C15.5,2.33 15.67,2.7 15.67,3.11L15.64,3.43L14.69,8H21A2,2 0 0,1 23,10V12C23,12.26 22.95,12.5 22.86,12.73L19.84,19.78C19.54,20.5 18.83,21 18,21H9M9,19H18.03L21,12V10H12.21L13.34,4.68L9,9.03V19Z"/></svg>`
+        },
+        do_nothing: {
+            label: "Observed", colorClass: "text-gray-500",
+            glowStyle: "bg-white border-gray-200 shadow-sm", // 静默保持普通的微弱阴影
+            svg: `<svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C17,19.5 21.27,16.39 23,12C21.27,7.61 17,4.5 12,4.5Z"/></svg>`
+        }
+    };
+    const config = ACTION_CONFIG[action] || ACTION_CONFIG['do_nothing'];
+
+    const stripHtml = (html) => html ? html.replace(/<[^>]*>?/gm, '') : '';
+
+    let targetAgent = "";
+    let quoteBoxHtml = "";
+    let mainTitle = "";
+    let bodyContentHtml = "";
+
+    // 3. 核心排版逻辑
+    if (action === 'reply') {
+        const match = rawContent.match(/replies to \[([^\]]+)\]:\s*([\s\S]*)/);
+        if (match) {
+            targetAgent = match[1];
+            let replyContent = match[2];
+
+            // 溯源原话
+            let originalText = "System could not fetch original post.";
+            if (window.globalFeedData) {
+                let dataIndex = parseInt(round) - 1;
+                for (let r = dataIndex; r >= 0; r--) {
+                    let turnData = window.globalFeedData[`turn_${r}`];
+                    if (turnData && turnData.agents && turnData.agents[targetAgent]) {
+                        let c = turnData.agents[targetAgent].content;
+                        if (c && c !== "Silence" && !c.includes("likes a tweet") && !c.includes("Retweets a tweet")) {
+                            let clean = stripHtml(c);
+                            let mReply = clean.match(/replies to \[([^\]]+)\]:\s*([\s\S]*)/);
+                            originalText = mReply ? mReply[2] : clean;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            // 蓝色引用边线
+            quoteBoxHtml = `
+            <div class="border-l-[3px] border-[#3B82F6] pl-3 mb-5 opacity-80">
+                <div class="flex items-center gap-1.5 mb-1.5">
+                    <i class="fa-solid fa-reply text-[#3B82F6] text-[10px]"></i>
+                    <strong class="text-[#1D4ED8] text-[11px] font-bold uppercase tracking-wider">Replying to @${targetAgent}</strong>
+                </div>
+                <div class="text-[#334155] text-[15px] leading-relaxed line-clamp-3">${originalText}</div>
+            </div>`;
+
+            mainTitle = getFirstSentence(stripHtml(replyContent));
+            let rest = replyContent.substring(mainTitle.length).trim();
+            bodyContentHtml = `<strong class="font-bold text-gray-900">${mainTitle}</strong> ${rest.replace(/\n/g, '<br>')}`;
+        }
+    } else if (action === 'retweet') {
+        const matchWithComment = rawContent.match(/Retweets a tweet of \[([^\]]+)\]:\s*'([\s\S]*)'\s+with additional statements:\s*([\s\S]*)/);
+        const matchWithoutComment = rawContent.match(/Retweets a tweet of \[([^\]]+)\]:\s*'([\s\S]*)'(?:\.)?$/);
+
+        if (matchWithComment) {
+            targetAgent = matchWithComment[1];
+            let originalText = matchWithComment[2];
+            let comment = matchWithComment[3];
+
+            // 黄色引用边线
+            quoteBoxHtml = `
+            <div class="border-l-[3px] border-[#EAB308] pl-3 mb-5 opacity-80">
+                <div class="flex items-center gap-1.5 mb-1.5">
+                    <i class="fa-solid fa-retweet text-[#EAB308] text-[10px]"></i>
+                    <strong class="text-[#A16207] text-[11px] font-bold uppercase tracking-wider">Original post by @${targetAgent}</strong>
+                </div>
+                <div class="text-[#422006] text-[15px] leading-relaxed line-clamp-3">${originalText}</div>
+            </div>`;
+
+            mainTitle = getFirstSentence(stripHtml(comment));
+            let rest = comment.substring(mainTitle.length).trim();
+            bodyContentHtml = `<strong class="font-bold text-gray-900">${mainTitle}</strong> ${rest.replace(/\n/g, '<br>')}`;
+
+        } else if (matchWithoutComment) {
+            targetAgent = matchWithoutComment[1];
+            let originalText = matchWithoutComment[2];
+
+            quoteBoxHtml = `
+            <div class="border-l-[3px] border-[#EAB308] pl-3 opacity-90">
+                <div class="flex items-center gap-1.5 mb-1.5">
+                    <i class="fa-solid fa-retweet text-[#EAB308] text-[10px]"></i>
+                    <strong class="text-[#A16207] text-[11px] font-bold uppercase tracking-wider">Retweeted from @${targetAgent}</strong>
+                </div>
+                <div class="text-[#422006] text-[15px] leading-relaxed">${originalText.replace(/\n/g, '<br>')}</div>
+            </div>`;
+
+            mainTitle = getFirstSentence(stripHtml(originalText));
+            bodyContentHtml = "";
+        }
+    } else if (action === 'like') {
+        const match = rawContent.match(/likes a tweet of \[([^\]]+)\]:\s*'([\s\S]*)'(?:\.)?$/);
+        if (match) {
+            targetAgent = match[1];
+            let originalText = match[2];
+
+            quoteBoxHtml = `
+            <div class="border-l-[3px] border-[#F97316] pl-3 opacity-90">
+                <div class="flex items-center gap-1.5 mb-1.5">
+                    <i class="fa-solid fa-heart text-[#F97316] text-[10px]"></i>
+                    <strong class="text-[#C2410C] text-[11px] font-bold uppercase tracking-wider">Liked post by @${targetAgent}</strong>
+                </div>
+                <div class="text-[#431407] text-[15px] leading-relaxed">${originalText.replace(/\n/g, '<br>')}</div>
+            </div>`;
+
+            mainTitle = getFirstSentence(stripHtml(originalText));
+            bodyContentHtml = "";
+        }
+    } else if (isSilence || action === 'do_nothing') {
+        mainTitle = "Agent chose to remain silent.";
+        quoteBoxHtml = `
+        <div class="border-l-[3px] border-gray-400 pl-3 mb-2 opacity-70">
+            <div class="flex items-center gap-1.5 mb-1.5">
+                <i class="fa-regular fa-eye-slash text-gray-500 text-[10px]"></i>
+                <strong class="text-gray-600 text-[11px] font-bold uppercase tracking-wider">Observed / No Action</strong>
+            </div>
+            <div class="text-gray-500 text-[15px] leading-relaxed italic">Agent observed the environment but chose to take no action this round.</div>
+        </div>`;
+        bodyContentHtml = "";
+    } else {
+        // Publish
+        mainTitle = getFirstSentence(stripHtml(rawContent));
+        let rest = rawContent.substring(mainTitle.length).trim();
+
+        quoteBoxHtml = `
+        <div class="flex items-center gap-1.5 mb-4 opacity-90">
+            <i class="fa-solid fa-pen-nib text-[#7C3AED] text-[11px]"></i>
+            <span class="text-[#6D28D9] text-[11px] font-bold uppercase tracking-wider">Original Publication</span>
+        </div>`;
+
+        bodyContentHtml = `<strong class="font-bold text-gray-900">${mainTitle}</strong> ${rest.replace(/\n/g, '<br>')}`;
+    }
+
+    if (!mainTitle && !isSilence) mainTitle = "Interacted with the post.";
+
+    const hue = getStringHue(agentId);
+    const avatarColor = `hsl(${hue}, 85%, 96%)`;
+    const avatarBorder = `hsl(${hue}, 70%, 80%)`;
+
+    // 4. 组装最终HTML（应用 glowStyle 和 1.5px 边框）
+    return `
+    <div id="card-${uniqueKey}" class="${config.glowStyle} border-[1.5px] rounded-[20px] p-6 feed-card fade-in-up mb-6 relative overflow-hidden transition-all duration-300">
+
+        <div class="flex items-center justify-between mb-5 pb-4 border-b border-black/5">
+            <div class="flex items-center gap-3">
+                <div class="relative w-10 h-10 flex-shrink-0">
+                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=${agentId}" class="w-full h-full rounded-full object-cover border-[1.5px] p-0.5 bg-white shadow-sm" style="border-color: ${avatarBorder}; background-color: ${avatarColor}">
+                    <div class="absolute bottom-0 right-0 w-3 h-3 rounded-full border-2 border-white ${attVal > 0.01 ? 'bg-[#16A34A]' : (attVal < -0.01 ? 'bg-[#DC2626]' : 'bg-gray-400')}"></div>
+                </div>
+                <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
+                    <span class="font-sans text-[17px] font-bold text-gray-900">${agentId}</span>
+                    <div class="flex items-center gap-1.5 ${config.colorClass} text-[13px] ml-0 sm:ml-1">
+                        ${config.svg}
+                        <span class="font-bold tracking-wide">${config.label}</span>
+                        <span class="text-black/30 font-normal">the post</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-black/20 text-xs font-bold tracking-wider">in Round ${round}</div>
+        </div>
+
+        <div id="${uniqueKey}-collapsed" class="block">
+            <h3 class="text-[21px] font-bold text-gray-900 mb-6 leading-snug line-clamp-2 pr-4 font-sans">${mainTitle}</h3>
+            <div class="flex justify-between items-center mt-2">
+                ${badgeHtml}
+                <button onclick="toggleCard('${uniqueKey}')" class="text-black/40 text-xs font-bold flex items-center gap-2 hover:text-black/70 transition-colors">
+                    More details about the post <div class="w-5 h-5 rounded-full border-[1.5px] border-current flex items-center justify-center"><i class="fa-solid fa-chevron-right text-[9px]"></i></div>
+                </button>
+            </div>
+        </div>
+
+        <div id="${uniqueKey}-expanded" class="hidden">
+            ${quoteBoxHtml}
+            ${bodyContentHtml !== "" && action !== 'do_nothing' ? `<h3 class="text-[21px] font-bold text-gray-900 mb-4 leading-snug pr-4 font-sans mt-4">${mainTitle}</h3>` : ''}
+            ${bodyContentHtml !== "" ? `<div class="text-[15px] text-gray-800 leading-relaxed mb-6 font-sans">${bodyContentHtml}</div>` : ''}
+
+            <div class="flex justify-between items-center mt-2">
+                ${badgeHtml}
+                <button onclick="toggleCard('${uniqueKey}')" class="text-black/40 text-xs font-bold flex items-center gap-2 hover:text-black/70 transition-colors">
+                    Fold <div class="w-5 h-5 rounded-full border-[1.5px] border-current flex items-center justify-center"><i class="fa-solid fa-chevron-left text-[9px]"></i></div>
+                </button>
+            </div>
+        </div>
+    </div>`;
+}
+
+        // ================= AI 洞察对话逻辑 =================
+        const chatInput = document.getElementById('chat-input');
+
+        chatInput.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight) + 'px';
+        });
+
+        function handleChatKeydown(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendChatMessage();
+            }
+        }
+
+        async function sendChatMessage() {
+            const text = chatInput.value.trim();
+            if (!text) return;
+
+            chatInput.value = '';
+            chatInput.style.height = 'auto';
+
+            const historyEl = document.getElementById('chat-history');
+            const userMsgId = 'msg-' + Date.now();
+
+            historyEl.insertAdjacentHTML('beforeend', `
+                <div class="flex gap-3 justify-end fade-in-up">
+                    <div class="bg-gray-800 rounded-2xl rounded-tr-sm px-4 py-3 shadow-sm text-sm text-white leading-relaxed max-w-[85%] font-sans">
+                        ${text.replace(/\n/g, '<br>')}
+                    </div>
+                </div>
+            `);
+            historyEl.scrollTop = historyEl.scrollHeight;
+
+            const aiMsgId = 'ai-' + Date.now();
+            historyEl.insertAdjacentHTML('beforeend', `
+                <div id="${aiMsgId}-container" class="flex gap-3 fade-in-up">
+                    <div class="w-8 h-8 rounded-full bg-white flex-shrink-0 flex items-center justify-center border border-stone-200 shadow-sm text-hnu-red"><i class="fa-solid fa-robot text-xs"></i></div>
+                    <div id="${aiMsgId}-bubble" class="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm border border-stone-100 text-sm text-stone-700 leading-relaxed max-w-[85%]">
+                        <span class="typing-cursor text-stone-400 italic">Analysing...</span>
+                    </div>
+                </div>
+            `);
+            historyEl.scrollTop = historyEl.scrollHeight;
+
+            try {
+                const response = await fetch('/ask_insight', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question: text })
+                });
+
+                let reply = "";
+                if (response.ok) {
+                    const data = await response.json();
+                    reply = data.answer || "分析完成，但我未能生成有效文本。";
+                } else {
+                    reply = "这是一个模拟回复。由于您目前的后端环境可能尚未配置 `/ask_insight` 接口，所以我无法从大模型获取真实的实时分析结果。\n\n您可以在 Python 后端增加该路由来处理我的提问。";
+                }
+
+                const bubble = document.getElementById(`${aiMsgId}-bubble`);
+                bubble.innerHTML = '';
+                let i = 0;
+                function typeWriter() {
+                    if (i < reply.length) {
+                        bubble.innerHTML += reply.charAt(i) === '\n' ? '<br>' : reply.charAt(i);
+                        i++;
+                        historyEl.scrollTop = historyEl.scrollHeight;
+                        setTimeout(typeWriter, 15);
+                    }
+                }
+                typeWriter();
+
+            } catch (error) {
+                const bubble = document.getElementById(`${aiMsgId}-bubble`);
+                bubble.innerHTML = `<span class="text-red-500"><i class="fa-solid fa-triangle-exclamation"></i> 无法连接到后端引擎。如果这是本地测试，请确保 Python 后端已增加 '/ask_insight' 接口。</span>`;
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            startPolling();
+            switchTab('setup');
+        });
+
+    </script>
+</body>
+</html>

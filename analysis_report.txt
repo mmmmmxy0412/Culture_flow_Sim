@@ -1,0 +1,31 @@
+### 1. Attitude distribution up to round 1:
+- Supporters: 6 users out of 10 (60%)
+- Opponents: 2 users out of 10 (20%)
+- Neutrals: 2 users out of 10 (20%)
+
+**Interpretation:** The community is mostly supportive (60% supporters), with a notable presence of opponents (20%) and neutrals (20%). The distribution indicates a relatively positive reception of the cultural event, with a significant portion showing opposition as well, leading to a somewhat polarized sentiment.
+
+### 2. Evolution of public opinion and turning points:
+- The average attitude score increased from round 0 to round 1, indicating a general trend towards more positive attitudes.
+- The key turning point seems to be round 1, where the attitudes of some users shifted more positively.
+  
+**Explanation:** 
+- Round 1 appears to be crucial as it witnessed an increase in support from users like Hanfu_CN and sparkle_in_hanfu, who were initially neutral or supportive but became more engaged and positive in round 1.
+- Core user actions such as likes and positive comments seem to have influenced this shift by amplifying positive narratives and engagement.
+
+### 3. Recommended timing of intervention:
+- The most appropriate time for intervention is just before round 2 to capitalize on the positive momentum from round 1.
+  
+**Reasoning:** 
+- Intervening before round 2 allows for reinforcing the positive shift in attitudes before any potential negative influences might appear in subsequent rounds.
+- Acting at this stage can help amplify the positive momentum and solidify the community's support for the event.
+
+### 4. Suggested intervention strategies:
+1. **Engage core users in targeted messaging:** Encourage core users like sparkle_in_hanfu and Hanfu_CN to continue sharing positive content and engaging with the community to maintain and enhance positivity.
+  
+2. **Highlight cultural exchange narratives:** Emphasize the cross-cultural communication aspect of the event to attract more neutral users and potentially convert opponents into supporters.
+  
+3. **Organize local meetups and events:** Facilitate physical interactions related to the event to deepen community engagement and foster a sense of belonging and shared cultural experience.
+  
+### 5. Short conclusion:
+- **Summary:** The community is mostly supportive but somewhat polarized, with a notable positive shift in attitudes observed in round 1. Intervening just before round 2 is recommended to reinforce positivity. Strategies should focus on engaging core users, highlighting cultural exchange, and organizing local events to promote the event effectively.
