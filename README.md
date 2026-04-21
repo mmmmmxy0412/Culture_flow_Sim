@@ -1,6 +1,7 @@
 # Culture_flow_Sim: A system for simulating cultural dynamics
 
-Culture_flow_Sim conducts simulations involving multiple cultural key opinion leaders and ordinary users on social media, thereby simulating the process of cultural dissemination within social networks.
+Culture_flow_Sim is a multi-agent-based system for simulating cultural trend evolution. 
+It can simulate scenarios involving multiple well-known cultural figures and ordinary users on social media, thereby simulating the process of cultural dissemination on social networks.
 
 | 参数设置 | 推演过程 |
 | :---: | :---: |
