@@ -14,14 +14,14 @@ from flask_cors import CORS
 
 # ================= 配置区域 =================
 CONFIG = {
-    "yaml_path": r"E:\Mxy\HiSim\agentverse\tasks\simulation\test\config.yaml",
+    "yaml_path": r"E:\Mxy\Culture_flow_Sim\agentverse\tasks\simulation\test\config.yaml",
     "task": "simulation/test",
     "ckpt": "path_to_save_the_intermediate_status",
-    "raw_json_name": r"E:\Mxy\HiSim\output\temp\test.json",
+    "raw_json_name": r"E:\Mxy\Culture_flow_Sim\output\temp\test.json",
     "output_dir": "ai_research_json"
 }
 FILE_MODEL = "influence_bcm/influence_bc_model.json"
-FILE_TEST = "E:/Mxy/HiSim/output/temp/test.json"
+FILE_TEST = "E:/Mxy/Culture_flow_Sim/output/temp/test.json"
 OUT_HTML = "simulation_dashboard_culture_v4_dynamic.html"
 # ================= AI 模型配置 (已切换为 GPT-3.5) =================
 # 请在此处填入您的 OpenAI API Key (或者您的智增增等 GPT 代理 Key)
