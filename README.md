@@ -17,7 +17,7 @@ conda create -n Culture_flow_Sim python=3.9
 conda activate Culture_flow_Sim
 git clone https://github.com/mmmmmxy/Culture_flow_Sim.git
 cd Culture_flow_Sim
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Environment Variables
